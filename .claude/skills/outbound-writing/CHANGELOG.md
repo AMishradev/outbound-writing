@@ -196,6 +196,14 @@ Refocused the skill around **startup outbound to technical people**. Added `refe
 **Lands in:** `linkedin-dm.md`
 **Note:** My first version of this rule banned naming the venue. Wrong. Venue plus topic is the working form.
 
+### 25. Plain CTAs, never engineered ones
+**Flagged:** "these ctas are just so bad they are so clearly salesy it's just terrible beyond belief"
+**Rule:** The ask is the plainest possible statement of what you want. **If you can explain the strategy behind a CTA, it reads as strategy and it is dead.** Every engineered ask has failed: routing moves (`who on your integrations team should i be talking to?`), abstraction asks (`worth a conversation?`), and status plays (`what does the bar look like` — asking them to sell you is a sales-training move and reads like one). The asks that worked were plain: `would love to grab tacos at leo's`, `are you free to grab coffee this week`, `is it still open`. None of them are clever. That is why they work.
+**Before:** `who's the client and what does the bar look like`
+**After:** `is it still open` / `cv attached if it's still open`
+**Lands in:** `startup-outbound.md`, `linkedin-dm.md`
+**Note:** Supersedes the framing in entry 14. "Social beats transactional" was right about the *symptom* and wrong about the cause — tacos did not win because food is a clever device, it won because it was the plain version. Chasing "social" produced a new generation of engineered asks. Chase plain instead.
+
 ### Process note, not a rule
 
 Draft 5 cut the technical description as slop and lost the only fact that made the email worth sending — a system that creates and tests and repairs integrations, which is exactly the recipient's maintenance burden. Flagged: "you've missed on the fact that i've been building something that creates, tests, and repairs toolkits/integrations which is not larp."

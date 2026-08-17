@@ -84,4 +84,11 @@ hey <first name>
 
 Three blocks, 40–70 words. Every line break is a paragraph on mobile, so a fourth block reads as a wall.
 
-**The ask:** social still beats transactional, but scaled down. A DM is the wrong place to propose a meeting with a stranger and exactly the right place to propose one with someone you've already met.
+**The ask:** the plainest statement of what you want, scaled down. **If you can explain the strategy behind it, it reads as strategy and it is dead.** See the CTA section in `startup-outbound.md` — same rule, and it is the one most often broken.
+
+A DM is the wrong place to propose a meeting with a stranger and exactly the right place to propose one with someone you've already met.
+
+- ✅ `are you free to grab coffee this week` — you've met
+- ✅ `is it still open` — replying to a role
+- ✅ `happy to send my cv over` — when they hold the thing you want
+- ❌ anything you'd describe as a move

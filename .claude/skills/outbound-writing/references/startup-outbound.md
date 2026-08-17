@@ -183,14 +183,27 @@ The line between outlandish and rude: the joke lands on **you**, never on them. 
 
 **Bold on the ask, nonchalant everywhere else.** This is the one place to be direct.
 
-**Social beats transactional.** A request for routing lands in a queue. A specific human proposal is a thing a person does.
+**Say the plainest version of what you want.** Nothing else. The single reliable test:
 
-- ❌ `who on your integrations team should i be talking to?`
-- ❌ `any chance i could get 20 minutes`
-- ❌ `i'd like to talk to someone about how you handle it`
-- ✅ `would love to grab al pastor tacos at the leo's with someone from your integrations team and learn more about the hard tech space`
+> **If you can explain the strategy behind your CTA, it reads as strategy and it is dead.**
 
-Why the food version wins: it names a real place, it's low-stakes, it gives whoever takes it a flattering and easy reason to say yes, and it reads as a person with a life rather than a pipeline stage.
+Engineered asks fail, and they fail in recognizable families:
+
+- ❌ `who on your integrations team should i be talking to?` — a routing move
+- ❌ `worth a conversation?` / `would love to connect` — asking for an abstraction
+- ❌ `what does the bar look like` — a status play, straight out of sales training
+- ❌ `any chance i could get 20 minutes of your time` — a request wearing an apology
+
+What works is never clever:
+
+- ✅ `would love to grab al pastor tacos at the leo's with someone from your integrations team`
+- ✅ `are you free to grab coffee this week`
+- ✅ `is it still open`
+- ✅ `cv attached if it's still open`
+
+The tacos line is not a device. It wins because it is the plain version of "I want to meet someone there," and it names a real place because that is where you would actually go. Reading it as a *technique* and reaching for the next technique is how you end up back in the top list.
+
+When stuck, write the ask the way you would say it out loud to a friend, then delete whatever you added to make it sound better.
 
 **Include a real logistical detail** that costs nothing and proves you're local or actually traveling — `family's in palms so the westside is a short drive`. Details that earn nothing argumentatively are what make writing read as lived.
 
