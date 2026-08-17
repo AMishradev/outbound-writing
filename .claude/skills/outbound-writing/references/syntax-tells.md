@@ -107,6 +107,33 @@ Each one announces that thinking occurred rather than showing any. They're throa
 
 Same test as the CTA rule: if you can explain why the line is there, it's technique and it shows.
 
+## 2d. Subjectless capability declarations
+
+A sentence with no subject and no active verb, describing what a system does:
+
+> credentials never touching the model and each run only getting the scopes it needs
+> every request scoped to a single tenant and nothing persisted between runs
+> auth handled at the edge and secrets resolved at execution time
+
+Markers: two clauses joined by `and`, participles or gerunds carrying the behavior, no `we`, perfect balance. This is landing-page grammar, because that is where the form comes from. Nobody has ever said one of these out loud.
+
+**Fix:** give it a subject and an active verb, or cut it.
+
+- ❌ `credentials never touching the model and each run only getting the scopes it needs`
+- ✅ `we do the same thing with creds`
+
+Cutting is usually right. These lines tend to appear where another sentence already made the point, and the declaration is just the same claim in a suit.
+
+---
+
+### The governing test
+
+Sections 2b, 2c and 2d, plus the CTA rules in `startup-outbound.md`, are one failure in four costumes: a spec-sheet list, a manufactured hesitation, a subjectless declaration, an engineered ask. Each reads as **authored** rather than **spoken**.
+
+**Would you say this out loud to a peer?**
+
+If the line only works written down, it's slop no matter how clean it reads. Say it aloud, type what you said, and stop there — every further pass toward "better" is a pass back toward these patterns.
+
 ## 3. Rhythm regularity
 
 Model prose alternates long and short sentences on a metronome. Long setup, short punch. Long setup, short punch.

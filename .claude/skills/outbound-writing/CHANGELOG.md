@@ -233,6 +233,22 @@ Refocused the skill around **startup outbound to technical people**. Added `refe
 **Rule:** When asking about something a team built, `yall` beats `you`. It is more accurate, it avoids crediting one person for a group's work, and it reads warmer than `you all` or `your team`. Also prefer past tense for a shipped thing — `how did yall decide` over `how do you decide`, since it asks about a real decision they made rather than a hypothetical policy.
 **Lands in:** `linkedin-dm.md`
 
+### 30. Subjectless capability declarations
+**Flagged:** "this middle line is so wack it just seems super manufactured and ai-generated... these declarative statements are so clear ai model slop"
+**Rule:** A sentence with no subject and no active verb that describes what a system does is a feature bullet, not speech. Markers: two parallel clauses joined by `and`, participles or gerunds carrying the behavior, no `we`, perfect balance. It reads as a landing page because that is where the form comes from.
+**Before:** `credentials never touching the model and each run only getting the scopes it needs`
+**After:** `we do the same thing with creds` — or cut it, if another line already proves the point
+**Lands in:** `syntax-tells.md`, `startup-outbound.md`
+**Note:** Extends entry 11, which fixed comma-lists of capabilities. This covers the subjectless form regardless of punctuation.
+
+### The governing test
+
+Entries 11, 25, 28 and 30 are all the same failure in different clothing — a spec-sheet list, an engineered CTA, a manufactured hesitation, a subjectless declaration. Each is a construction that reads as *authored* rather than *spoken*.
+
+**One test covers all of them: would you say this out loud to a peer?**
+
+If the line only works written down, it is slop, however clean it reads. Say it aloud, type what you said, then stop editing it toward sounding better — every pass toward "better" is a pass toward the four patterns above.
+
 ### Process note, not a rule
 
 Draft 5 cut the technical description as slop and lost the only fact that made the email worth sending — a system that creates and tests and repairs integrations, which is exactly the recipient's maintenance burden. Flagged: "you've missed on the fact that i've been building something that creates, tests, and repairs toolkits/integrations which is not larp."
