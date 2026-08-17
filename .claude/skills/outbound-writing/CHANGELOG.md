@@ -220,6 +220,19 @@ Refocused the skill around **startup outbound to technical people**. Added `refe
 **Lands in:** `startup-outbound.md`
 **Refines:** entry 13 and the "say the thing that disqualifies you" rule. Both still hold at email length. Under ~60 words the disqualifier should ride inside the ask rather than occupy its own line.
 
+### 28. Manufactured hesitation lines
+**Flagged:** "the part i keep going back and forth on is self healing sounds like ai slop to be honest dude"
+**Rule:** Cut any transition that performs a mental state to set up a question. `the part i keep going back and forth on is X`, `the thing i keep coming back to is X`, `what i'm still chewing on`, `what struck me was`, `i've been thinking a lot about`. They announce that you have thoughts instead of showing one, and they exist purely to make the next sentence feel earned. Ask the question directly, or replace the line with a concrete fact that proves you did the work.
+**Before:** `the part i keep going back and forth on is self healing` + `how do you decide a regenerated recipe is safe to ship`
+**After:** `credentials never touching the model and each run only getting the scopes it needs` + `how did yall decide a regenerated recipe is safe to ship`
+**Lands in:** `syntax-tells.md`, `startup-outbound.md`
+**Note:** Same family as entry 25. If you can explain why a line is there, it is technique and it shows.
+
+### 29. Use "yall" when the work was a team's
+**Flagged:** "or maybe yall because it might not be just him"
+**Rule:** When asking about something a team built, `yall` beats `you`. It is more accurate, it avoids crediting one person for a group's work, and it reads warmer than `you all` or `your team`. Also prefer past tense for a shipped thing — `how did yall decide` over `how do you decide`, since it asks about a real decision they made rather than a hypothetical policy.
+**Lands in:** `linkedin-dm.md`
+
 ### Process note, not a rule
 
 Draft 5 cut the technical description as slop and lost the only fact that made the email worth sending — a system that creates and tests and repairs integrations, which is exactly the recipient's maintenance burden. Flagged: "you've missed on the fact that i've been building something that creates, tests, and repairs toolkits/integrations which is not larp."

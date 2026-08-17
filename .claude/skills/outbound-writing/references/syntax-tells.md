@@ -87,6 +87,26 @@ Nine commas in 137 words. Every one of them is a small lecture.
 > ❌ `Control plane holds auth and session state. Each sandbox is disposable. It only gets what that run needs.`
 > ✅ `control plane holds auth and session state and each sandbox only gets the capabilities its run needs`
 
+## 2c. Manufactured hesitation
+
+A transition that performs a mental state in order to earn the sentence after it:
+
+> the part i keep going back and forth on is X
+> the thing i keep coming back to is X
+> what i'm still chewing on is X
+> what struck me was X
+> i've been thinking a lot about X
+> i'm curious how you think about X
+
+Each one announces that thinking occurred rather than showing any. They're throat-clearing that sounds introspective, which is why they survive editing — they feel like voice.
+
+**Fix:** delete it and ask the question, or replace it with a concrete fact that proves the work.
+
+- ❌ `the part i keep going back and forth on is self healing` → `how do you decide a regenerated recipe is safe to ship`
+- ✅ `credentials never touching the model and each run only getting the scopes it needs` → `how did yall decide a regenerated recipe is safe to ship`
+
+Same test as the CTA rule: if you can explain why the line is there, it's technique and it shows.
+
 ## 3. Rhythm regularity
 
 Model prose alternates long and short sentences on a metronome. Long setup, short punch. Long setup, short punch.
