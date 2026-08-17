@@ -204,6 +204,22 @@ Refocused the skill around **startup outbound to technical people**. Added `refe
 **Lands in:** `startup-outbound.md`, `linkedin-dm.md`
 **Note:** Supersedes the framing in entry 14. "Social beats transactional" was right about the *symptom* and wrong about the cause — tacos did not win because food is a clever device, it won because it was the plain version. Chasing "social" produced a new generation of engineered asks. Chase plain instead.
 
+### 26. Name the employer only when it means something to this reader
+**Flagged:** "you don't have to reference my company name, [he] probably doesn't give a fuck, you could say i build integrations for agents"
+**Rule:** The credential is what you *do*, not where. If the recipient would not recognize the company or would not care, the name is noise taking up one of your sixty words. Drop it and describe the work. Keep it only when the name itself carries weight with that specific reader.
+**Before:** `i build integrations at <company>`
+**After:** `i build integrations for agents`
+**Lands in:** `startup-outbound.md`
+**Refines:** entry 18, which said "name the employer and your role, nothing more" — correct against boilerplate, but still one word too many when the reader has no reason to care about the employer.
+
+### 27. Fold the hedge into the ask
+**Flagged:** "the could easily be a small-company problem i am over-indexing on could be the last line changed to be a single question ask"
+**Rule:** In short outbound, do not spend one line admitting the gap and another asking the question. Write one question that admits its own possible naivety. A standalone hedge line reads as performed modesty; a question carrying the same doubt is just a real question, and it costs half the words.
+**Before:** `could easily be a small-company problem i am over-indexing on` + `does that flatten out at your scale or just get more expensive`
+**After:** `is this just a small company problem or does it show up at your scale too`
+**Lands in:** `startup-outbound.md`
+**Refines:** entry 13 and the "say the thing that disqualifies you" rule. Both still hold at email length. Under ~60 words the disqualifier should ride inside the ask rather than occupy its own line.
+
 ### Process note, not a rule
 
 Draft 5 cut the technical description as slop and lost the only fact that made the email worth sending — a system that creates and tests and repairs integrations, which is exactly the recipient's maintenance burden. Flagged: "you've missed on the fact that i've been building something that creates, tests, and repairs toolkits/integrations which is not larp."

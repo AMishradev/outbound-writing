@@ -48,6 +48,13 @@ Target: **under two commas in a sub-100-word email.** Zero is achievable and rea
 
 Name the employer and your role in it, nothing more. A technical reader looks up the company if they care, and declining to explain is the nonchalant move. The best version of this line often has no parens at all — check whether restructuring beats the aside.
 
+**And drop the employer entirely when it means nothing to this reader.** The credential is what you do, not where. If they would not recognize the name or would not care, it is noise eating one of your sixty words.
+
+- ❌ `i build integrations at <company>` — to someone who has never heard of it
+- ✅ `i build integrations for agents`
+
+Keep the name only when it carries weight with that specific person.
+
 ### Polysyndeton, not comma lists
 
 Comma-separated lists of what a system does are spec-sheet shape. Repeat `and` instead. Same content, spoken rhythm.
@@ -104,6 +111,11 @@ Carried over from the core skill, and it matters more here than anywhere. Name t
 - ✅ `no defense background and none of what i've done has ever run near anything classified so not going to larp otherwise`
 
 Calibration reads as confidence. Someone who volunteers the disqualifier is probably not inflating the rest, so the honest gap makes the real credential land harder. Say `none of what i've done` rather than `none of this` — a vague demonstrative pointing at a whole paragraph is its own tell.
+
+**Under ~60 words, fold the hedge into the ask instead of giving it a line.** A standalone admission followed by a separate question reads as performed modesty. One question that admits its own possible naivety does both jobs in half the words and sounds like a person actually wondering.
+
+- ❌ `could easily be a small company problem i am over-indexing on` + `does that flatten out at your scale or just get more expensive`
+- ✅ `is this just a small company problem or does it show up at your scale too`
 
 ---
 
