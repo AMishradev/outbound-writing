@@ -24,7 +24,7 @@ So the skill gathers facts before it drafts. A draft written from specifics come
 ## Install
 
 ```bash
-git clone https://github.com/AMishraDev/outbound-writing.git
+git clone https://github.com/AMishradev/outbound-writing.git
 ln -s "$(pwd)/outbound-writing/.claude/skills/outbound-writing" ~/.claude/skills/outbound-writing
 ```
 

@@ -126,7 +126,7 @@ export const StatsScene: React.FC = () => {
           }),
         }}
       >
-        github.com/AMishraDev/outbound-writing
+        github.com/AMishradev/outbound-writing
       </div>
     </AbsoluteFill>
   );
