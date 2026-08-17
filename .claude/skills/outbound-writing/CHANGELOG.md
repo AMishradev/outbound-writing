@@ -249,6 +249,12 @@ Entries 11, 25, 28 and 30 are all the same failure in different clothing — a s
 
 If the line only works written down, it is slop, however clean it reads. Say it aloud, type what you said, then stop editing it toward sounding better — every pass toward "better" is a pass toward the four patterns above.
 
+### 31. The greeting is "hi", never "hey"
+**Flagged:** "change the opening from hey to hi i hate the word hey"
+**Rule:** Author preference. `hi <name>` in every channel, email and DM alike. No `hey`, no `hey there`, no `yo`.
+**Lands in:** `linkedin-dm.md`, `startup-outbound.md`
+**Note:** The one surviving `hey` in `channels.md` is the ❌ example of fake familiarity (`"Hey! Long time!"` to a stranger) and stays as a bad-practice illustration.
+
 ### Process note, not a rule
 
 Draft 5 cut the technical description as slop and lost the only fact that made the email worth sending — a system that creates and tests and repairs integrations, which is exactly the recipient's maintenance burden. Flagged: "you've missed on the fact that i've been building something that creates, tests, and repairs toolkits/integrations which is not larp."

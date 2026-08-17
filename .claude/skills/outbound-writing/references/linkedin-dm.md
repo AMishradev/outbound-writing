@@ -25,7 +25,7 @@ So **don't CTA the conversation itself.** `would love to connect and exchange no
 
 Four of those change the writing, not just the layout:
 
-**Line one is the subject.** The first six or seven words render as the preview in their inbox list and decide whether it opens. Front-load the recall trigger or the specific thing. `hey! hope you're doing well` as line one means that is the entire preview.
+**Line one is the subject.** The first six or seven words render as the preview in their inbox list and decide whether it opens. Front-load the recall trigger or the specific thing. `hi! hope you're doing well` as line one means that is the entire preview.
 
 **No sign-off.** Your name and photo are on the message. Signing `alex` is the tell that you drafted this elsewhere and pasted it in. Same for `hi <name>,` with a comma and a line break.
 
@@ -73,7 +73,7 @@ This is the one place `startup-outbound.md`'s "avoid flattery in disguise" does 
 ## Structure
 
 ```
-hey <first name>
+hi <first name>
 
 <recall trigger — what you talked about>
 
