@@ -100,7 +100,8 @@ The constant across all of them: **plain, specific, and willing to be uninterest
 
 ## References
 
-- **`references/startup-outbound.md`** — **the primary playbook.** Load it for any cold email or DM to founders, engineers, or CTOs at startups. Overrides `channels.md` where they conflict.
+- **`references/startup-outbound.md`** — **the primary playbook.** Load it for any cold email to founders, engineers, or CTOs at startups. Overrides `channels.md` where they conflict.
+- **`references/linkedin-dm.md`** — load this **instead** when the channel is LinkedIn. A fork of the above: same register, different container (no subject, no sign-off, 40–70 words, one-line ask). Also covers connection-request notes and warm re-connects.
 
 Load the rest as needed:
 

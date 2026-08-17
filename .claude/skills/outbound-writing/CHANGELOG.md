@@ -155,6 +155,47 @@ Refocused the skill around **startup outbound to technical people**. Added `refe
 **Lands in:** `audit.md` (Pass 7), `startup-outbound.md`
 **Note:** This is a process failure, not a style one. Local edits kept passing every mechanical check while the piece as a whole stopped making sense. No word-level rule catches it.
 
+### 20. LinkedIn DMs get their own playbook
+**Flagged:** "this going to be a linkedin dm so you can create a fork or a diff version"
+**Rule:** `linkedin-dm.md` forks `startup-outbound.md` rather than copying it. Register is identical; the container is not. No subject line, so line one *is* the preview. No sign-off, because the name is already on the message. No credentialing, because the profile is one tap away. No links in message one. 40–70 words instead of 70–90. The ask must be answerable in a single line, since that is how people reply from a phone. Adds connection-request notes (300 chars, everything in the note) and warm re-connects (lead with the thing that happened, never "not sure if you remember me").
+**Lands in:** `linkedin-dm.md`, referenced from `SKILL.md`
+**Note:** Kept as a fork, not a merge. The two channels share the voice and disagree on nearly every structural rule, so one file with conditionals would be harder to follow than two.
+
+### 21. Never volunteer a gap against a nice-to-have
+**Flagged:** "get rid of the I don't know MSHA that makes me look weak"
+**Rule:** The gap paragraph only earns its place against a stated **must-have** the résumé visibly fails, where the reader reaches the objection on their own and the sentence reframes it. Against a nice-to-have it manufactures a rejection reason that was never going to form. And never name the specific credential or acronym you lack: an abstract gap fades, `MSHA` is concrete and memorable and greppable against you.
+**Before:** `I've never worked in mining and I don't know MSHA. Honda and Skechers are manufacturing and retail supply chain, not a working mine, so I'd be learning the domain from operators on site rather than arriving with it.`
+**After:** *(cut, no replacement)*
+**Lands in:** `channels.md` (job applications)
+**Note:** Narrows the standing "the gap paragraph is the differentiator" claim, which was written with no must-have/nice-to-have distinction and so read as unconditional. Realm listed mining and MSHA expertise under "Nice-to-Have Qualifications."
+
+### 21. A warm DM needs no relevance-proof
+**Flagged:** "the i build the system at northwind that creates tests and repairs is so irrelevant that this shit is terrible, just say i like the work you guys are doing at tessel and i wanted to talk to you more about it"
+**Rule:** Cold email earns the read by proving the overlap. A warm DM already has the read, so a block about what you build is résumé nobody asked for. State the honest reason: you're interested. This is the one place the "avoid flattery in disguise" rule is suspended — a stranger complimenting your work is buying goodwill, someone you've met saying it is just true.
+**Before:** `i build the system at northwind that creates and tests and repairs our integrations, plus the sandboxing so a run only gets the scopes it needs`
+**After:** `i like what you guys are building at tessel and wanted to hear more about it`
+**Lands in:** `linkedin-dm.md`
+
+### 22. Don't CTA the conversation itself
+**Flagged:** "all you want from a linkedin dm is something interesting enough to spark a conversation worth their time but you never want to explicitly cta to that"
+**Rule:** The goal is being worth a reply, not demonstrating anything. Never ask for the abstraction (`connect and exchange notes`, `start a dialogue`, `explore working together`) — nobody accepts an abstraction. Ask for the concrete thing (coffee, fifteen minutes, one answer) or ask for nothing.
+**After:** `are you free to grab coffee this week`
+**Lands in:** `linkedin-dm.md`
+**Note:** `pick your brain` stays banned for cold DMs and is fine in a warm re-connect, where it reads as deference to someone you've actually met rather than a claim on a stranger's time.
+
+### 23. No connection-request notes
+**Flagged:** "this isn't a connection request note i never send those, i only ever send dms after someone connects"
+**Rule:** Cut the 300-character connection-note format entirely. Every DM in this playbook assumes the connection already exists. Do not draft request notes unless explicitly asked.
+**Lands in:** `linkedin-dm.md` (section removed)
+
+### 24. Venue plus topic is the recall trigger
+**Flagged:** his own line, `we chatted at the ice cream shop about gtm tooling for a bit`
+**Rule:** The bad version isn't bad because it names the venue — the venue is the memory hook. It's bad because it has no subject. Name where *and* what you talked about. `for a bit` keeps the claim modest instead of inflating a short chat into a relationship. Quoting a position they took is an upgrade, not a requirement.
+**Before:** `you were the one arguing internal tools are a permissions problem before they're a UI problem` *(overcorrected — demanded a quotable position)*
+**After:** `we chatted at the ice cream shop about gtm tooling for a bit`
+**Lands in:** `linkedin-dm.md`
+**Note:** My first version of this rule banned naming the venue. Wrong. Venue plus topic is the working form.
+
 ### Process note, not a rule
 
 Draft 5 cut the technical description as slop and lost the only fact that made the email worth sending — a system that creates and tests and repairs integrations, which is exactly the recipient's maintenance burden. Flagged: "you've missed on the fact that i've been building something that creates, tests, and repairs toolkits/integrations which is not larp."

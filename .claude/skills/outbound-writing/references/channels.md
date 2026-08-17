@@ -38,7 +38,7 @@ Register follows the channel. Each section: what the reader is actually doing, t
 1. **What you're applying for**, one line. No "I am writing to express my enthusiastic interest."
 2. **Two or three pieces of evidence** — each a specific thing you did, with the system named, the scale given, and the outcome stated. Not responsibilities. Things that happened.
 3. **One connection to their actual situation** — something from the job post, their engineering blog, their product. Show you read it and formed an opinion.
-4. **One honest gap.** "I don't have X" — where X is a real requirement you lack. Name it and say what's adjacent.
+4. **One honest gap, but only against a must-have.** "I don't have X" — where X is a real requirement you lack. Name it and say what's adjacent. Check their list first: if X sits under *nice-to-have*, cut the sentence. You would be manufacturing a rejection reason that was never going to form.
 5. **Close** — one line. "Résumé attached, happy to walk through any of this."
 
 **Rules:**
@@ -51,7 +51,9 @@ Register follows the channel. Each section: what the reader is actually doing, t
 
 **How this channel fails:** the piece is entirely about the applicant's feelings and contains no verifiable fact. Every sentence could be in anyone's cover letter for any job. Test: swap the company name and see if it still works. If it does, it's worthless.
 
-**The gap paragraph is the differentiator.** Almost nobody does it, and it flips the read from "candidate performing confidence" to "candidate who evaluated themselves honestly." It also front-runs the objection the reader was already forming.
+**The gap paragraph is the differentiator, when it's aimed correctly.** Almost nobody does it, and it flips the read from "candidate performing confidence" to "candidate who evaluated themselves honestly." It works by front-running an objection the reader was *already going to reach on their own*. That condition is the whole rule. A gap they would never have formed is not honesty, it is a free reason to reject you, and it costs most when the missing thing has a name. "I've never worked in mining" fades on a second read. "I don't know MSHA" is a keyword that sticks and can be searched against you.
+
+Test before keeping it: find the requirement in their own list. Must-have you visibly fail, keep it. Nice-to-have, cut it. Not mentioned at all, cut it.
 
 ---
 
