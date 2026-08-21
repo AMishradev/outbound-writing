@@ -40,7 +40,7 @@ Refocused the skill around **startup outbound to technical people**. Added `refe
 ### 3. Manufactured transitions
 **Flagged:** "also way too botty"
 **Rule:** Cut constructed connectives (`Under it,` `That said,` `Which is why`). Let adjacent sentences sit next to each other.
-**Before:** `Under it, disposable Modal sandboxes hold only the capabilities leased to that exact generation.`
+**Before:** `Under it, disposable <vendor> sandboxes hold only the capabilities leased to that exact generation.`
 **After:** *(merged into the preceding line)*
 **Lands in:** `startup-outbound.md`
 
@@ -254,6 +254,14 @@ If the line only works written down, it is slop, however clean it reads. Say it 
 **Rule:** Author preference. `hi <name>` in every channel, email and DM alike. No `hey`, no `hey there`, no `yo`.
 **Lands in:** `linkedin-dm.md`, `startup-outbound.md`
 **Note:** The one surviving `hey` in `channels.md` is the ❌ example of fake familiarity (`"Hey! Long time!"` to a stranger) and stays as a bad-practice illustration.
+
+### 32. Never source a question to secondhand chatter
+**Flagged:** wanting to ask a founder whether his product was "just a wrapper," based on what a vendor's team said at an event the night before.
+**Rule:** If a question came from something someone told you in passing, ask it on your own standing and leave the source out. Citing it does three bad things at once: it exposes whoever talked, it puts the recipient on the defensive about a characterization rather than the facts, and it converts a fair technical question into a report of what people say behind their back. If you have no standing of your own, that is a signal not to send it.
+**Before:** `the <vendor> team mentioned you might just be a wrapper`
+**After:** `i built a smaller version of this for myself, control plane plus disposable <vendor> sandboxes` + `how much of the runtime is yours vs off the shelf`
+**Lands in:** `startup-outbound.md`
+**Note:** Also reframe loaded questions so they can be answered with pride instead of defended. "How much is yours vs off the shelf" and "are you just a wrapper" ask for the same information; only one of them gets answered.
 
 ### Process note, not a rule
 
