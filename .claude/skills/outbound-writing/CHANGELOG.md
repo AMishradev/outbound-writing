@@ -263,6 +263,14 @@ If the line only works written down, it is slop, however clean it reads. Say it 
 **Lands in:** `startup-outbound.md`
 **Note:** Also reframe loaded questions so they can be answered with pride instead of defended. "How much is yours vs off the shelf" and "are you just a wrapper" ask for the same information; only one of them gets answered.
 
+### 33. "X plus Y" joins and "the X part" labels
+**Flagged:** "the plus wording is a dead giveaway this is AI" / "got it working but the environment setup was always the brittle part is weird"
+**Rule:** Two nominalizations, same root failure. **`plus`** joining noun phrases is spec-sheet grammar — nobody says "a control plane plus disposable sandboxes" out loud, they say "and" or restructure around a verb. **`the X part`** turns something that happened into a labeled category — "the brittle part", "the hard part", "the tricky bit". Say what it did instead.
+**Before:** `control plane plus disposable sandboxes running claude code against a repo` / `got it working but the environment setup was always the brittle part`
+**After:** `basically sandboxes running claude code against a repo` / `never got the environment setup to stop breaking`
+**Lands in:** `syntax-tells.md` (2d), `startup-outbound.md`
+**Note:** Extends entry 30. Whenever a detail forces one of these constructions, check whether the detail is load-bearing at all — dropping the control plane removed the need for the `plus` entirely.
+
 ### Process note, not a rule
 
 Draft 5 cut the technical description as slop and lost the only fact that made the email worth sending — a system that creates and tests and repairs integrations, which is exactly the recipient's maintenance burden. Flagged: "you've missed on the fact that i've been building something that creates, tests, and repairs toolkits/integrations which is not larp."

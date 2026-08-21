@@ -124,6 +124,14 @@ Markers: two clauses joined by `and`, participles or gerunds carrying the behavi
 
 Cutting is usually right. These lines tend to appear where another sentence already made the point, and the declaration is just the same claim in a suit.
 
+**Two nominalized forms of the same tell:**
+
+`plus` joining noun phrases — `a control plane plus disposable sandboxes`, `auth plus routing`, `a queue plus a worker pool`. Nobody says "plus" out loud describing what they built. Use `and`, or restructure around a verb.
+
+`the X part` labeling an experience — `the brittle part`, `the hard part`, `the tricky bit`. Say what it did: `never got the environment setup to stop breaking`.
+
+When a detail forces either construction, first check whether the detail is load-bearing. It usually is not, and cutting it removes the problem.
+
 ---
 
 ### The governing test
