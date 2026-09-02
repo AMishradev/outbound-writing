@@ -271,6 +271,14 @@ If the line only works written down, it is slop, however clean it reads. Say it 
 **Lands in:** `syntax-tells.md` (2d), `startup-outbound.md`
 **Note:** Extends entry 30. Whenever a detail forces one of these constructions, check whether the detail is load-bearing at all — dropping the control plane removed the need for the `plus` entirely.
 
+### 34. Performed craft: one aphorism per paragraph
+**Flagged:** a cold email that had no ordinary slop in it — real numbers, a genuine disqualifier, no corporate verbs — and still read as generated, because every paragraph landed a line.
+**Rule:** High-effort slop is a distinct failure from lazy slop and a louder one. Its signature is a **closing flourish in every paragraph**: a superlative, an aphorism, a fragment kicker, a reframe. Each is defensible alone; three in four paragraphs is a performance. Cap **one** memorable line per piece, and only if it arrived by accident.
+**Before:** `the most disciplined prose pipeline I've read this year and it terminates in a channel where the discipline is the only thing you own. On a phone call nobody counts your commas.`
+**After:** `outbound-factory runs five review gates and then sends a Slack DM.`
+**Lands in:** `syntax-tells.md`, `startup-outbound.md`
+**Note:** The bare fact beats the interpretation. Stating the observation and stopping lets the reader reach the conclusion themselves, which is entry 6 applied to a compliment rather than a criticism. Related trap: writing to demonstrate you have absorbed a style guide produces worse prose than ignoring it, because every flourish is evidence of effort and effort is the thing being detected.
+
 ### Process note, not a rule
 
 Draft 5 cut the technical description as slop and lost the only fact that made the email worth sending — a system that creates and tests and repairs integrations, which is exactly the recipient's maintenance burden. Flagged: "you've missed on the fact that i've been building something that creates, tests, and repairs toolkits/integrations which is not larp."
