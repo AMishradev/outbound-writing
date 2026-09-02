@@ -46,6 +46,9 @@ Words and phrases that mark text as machine-written. Organized by where they sho
 | can't wait | Delete |
 | game-changer / game-changing | Say what changed |
 | a joy to work with | Give an example instead |
+| X is what I'm stealing | Cite something specific instead — see "clever compliments" below |
+| that's going on my wall / in my notes | Delete |
+| I've been quoting this all week | Delete |
 
 ## Corporate verbs
 

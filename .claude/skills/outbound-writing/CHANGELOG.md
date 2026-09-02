@@ -279,6 +279,14 @@ If the line only works written down, it is slop, however clean it reads. Say it 
 **Lands in:** `syntax-tells.md`, `startup-outbound.md`
 **Note:** The bare fact beats the interpretation. Stating the observation and stopping lets the reader reach the conclusion themselves, which is entry 6 applied to a compliment rather than a criticism. Related trap: writing to demonstrate you have absorbed a style guide produces worse prose than ignoring it, because every flourish is evidence of effort and effort is the thing being detected.
 
+### 35. The clever compliment
+**Flagged:** "the phrase is what I'm stealing is pretty AI"
+**Rule:** Cut compliments that flatter the sender too. `X is what I'm stealing`, `that's going on my wall`, `that one's going straight in my notes`, `I've been quoting this all week`. They praise the recipient while advertising that the sender is discerning enough to notice, so two people get complimented and only one was supposed to. Prove you read the thing by citing something specific from deep inside it; that does the same job without the flex.
+**Before:** `Read outbound-writing, changelog included. The provenance format is what I'm stealing.`
+**After:** `Read outbound-writing, changelog included. Then went through the rest of your github.` + a specific fact from a second repo
+**Lands in:** `slop-lexicon.md`, `startup-outbound.md`
+**Note:** Sits next to entry 34. Both are failures of *trying to write well* rather than failures of laziness. Showing the work always beats announcing that the work was worth reading.
+
 ### Process note, not a rule
 
 Draft 5 cut the technical description as slop and lost the only fact that made the email worth sending — a system that creates and tests and repairs integrations, which is exactly the recipient's maintenance burden. Flagged: "you've missed on the fact that i've been building something that creates, tests, and repairs toolkits/integrations which is not larp."
