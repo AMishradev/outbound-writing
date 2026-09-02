@@ -303,6 +303,15 @@ If the line only works written down, it is slop, however clean it reads. Say it 
 **Lands in:** `startup-outbound.md`, `slop-lexicon.md`
 **Note:** Same root as entries 25 and 34 — visible effort. Cutting the frame exposed a real structural bug: the limitation had been arriving before the reader knew what the product was, and the announcement was papering over the ordering problem. When removing a construction breaks the flow, the flow was already broken and the construction was hiding it.
 
+### 38. An observation needs a first-person reason attached
+**Flagged:** "it would have been smarter to mention a reasonable connection between the outbound-factory repo and dial, like saying something personal like I'm imagining the potential of combining your outbound factory with dial"
+**Rule:** Entry 6 bans **narrating their work**. It does not ban **saying what you want to do with it**. An observation dropped as a bare fact floats — the reader has to guess why they are being told. Attach a first-person want and it becomes the reason for the email.
+**Before:** `outbound-factory runs five review gates and then sends a Slack DM.` *(bare fact, no stated reason for mentioning it)*
+**After:** `outbound-factory runs five review gates and then sends a Slack DM. I want to see that pipeline end in a text instead.`
+**Lands in:** `startup-outbound.md`
+**Refines:** entry 6, which I over-applied. Also bounds "let the reader do some work" — that applies to the implications of your own claims, never to *why you are in their inbox*. Leaving that implicit is not restraint, it is an omission.
+**Note:** The test is grammatical person. `you have built X and it means Y` is a lecture. `I want to see X do Y` is a thought. Same observation, and only one of them is yours to have.
+
 ### Process note, not a rule
 
 Draft 5 cut the technical description as slop and lost the only fact that made the email worth sending — a system that creates and tests and repairs integrations, which is exactly the recipient's maintenance burden. Flagged: "you've missed on the fact that i've been building something that creates, tests, and repairs toolkits/integrations which is not larp."
