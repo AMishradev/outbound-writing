@@ -295,6 +295,14 @@ If the line only works written down, it is slop, however clean it reads. Say it 
 **Lands in:** `syntax-tells.md` (2d), `slop-lexicon.md`
 **Note:** Completes the compression family with entries 30 and 33 — subjectless declarations, `plus` joins and `the X part` labels, and now absolute-phrase tags. All four are written-only devices for packing two ideas into one phrase, and all four are caught by reading the line aloud. The unpacked version is usually better than a rewrite: here the plain series implies a rabbit hole and does the flattery that the compliment was supposed to do.
 
+### 37. Never narrate the move you are making
+**Flagged:** "the Ours first, since that's your rule makes no real sense, i like the paragraph but the phrasing gives total ai vibes"
+**Rule:** Doing the thing and announcing the thing are mutually exclusive. `ours first, since that's your rule`, `to be blunt`, `here's my honest take`, `being direct here`, `since you value X`, `not to be that guy, but`. Every one converts a move into a technique, and a visible technique is dead on arrival. The disqualifier works **because** it arrives unannounced; framing it as compliance with the reader's own framework is worse than not doing it.
+**Before:** `Ours first, since that's your rule: US carriers block outbound SMS...`
+**After:** `US outbound SMS is the one that does not. Carriers block texts from unregistered numbers...`
+**Lands in:** `startup-outbound.md`, `slop-lexicon.md`
+**Note:** Same root as entries 25 and 34 — visible effort. Cutting the frame exposed a real structural bug: the limitation had been arriving before the reader knew what the product was, and the announcement was papering over the ordering problem. When removing a construction breaks the flow, the flow was already broken and the construction was hiding it.
+
 ### Process note, not a rule
 
 Draft 5 cut the technical description as slop and lost the only fact that made the email worth sending — a system that creates and tests and repairs integrations, which is exactly the recipient's maintenance burden. Flagged: "you've missed on the fact that i've been building something that creates, tests, and repairs toolkits/integrations which is not larp."
