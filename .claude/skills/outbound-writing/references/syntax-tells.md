@@ -130,6 +130,8 @@ Cutting is usually right. These lines tend to appear where another sentence alre
 
 `the X part` labeling an experience — `the brittle part`, `the hard part`, `the tricky bit`. Say what it did: `never got the environment setup to stop breaking`.
 
+`X, Y included` — truncated absolute phrases. `changelog included`, `caveats and all`, `complete with tests`. Written-only compression; speech uses a plain series. Unpack to `X, then Y`.
+
 When a detail forces either construction, first check whether the detail is load-bearing. It usually is not, and cutting it removes the problem.
 
 ---

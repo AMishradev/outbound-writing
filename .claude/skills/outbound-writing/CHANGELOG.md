@@ -287,6 +287,14 @@ If the line only works written down, it is slop, however clean it reads. Say it 
 **Lands in:** `slop-lexicon.md`, `startup-outbound.md`
 **Note:** Sits next to entry 34. Both are failures of *trying to write well* rather than failures of laziness. Showing the work always beats announcing that the work was worth reading.
 
+### 36. Truncated absolute phrases
+**Flagged:** "the word changelog included triggers AI vibes"
+**Rule:** Tags appended to compress a second item into a noun phrase — `changelog included`, `caveats and all`, `complete with tests`, `warts and all`, `bonus points included`. They exist only in writing; speech uses a plain series. Unpack into `X, then Y` or `X and Y`.
+**Before:** `Read outbound-writing, changelog included.`
+**After:** `Read outbound-writing, then the changelog, then the rest of your github.`
+**Lands in:** `syntax-tells.md` (2d), `slop-lexicon.md`
+**Note:** Completes the compression family with entries 30 and 33 — subjectless declarations, `plus` joins and `the X part` labels, and now absolute-phrase tags. All four are written-only devices for packing two ideas into one phrase, and all four are caught by reading the line aloud. The unpacked version is usually better than a rewrite: here the plain series implies a rabbit hole and does the flattery that the compliment was supposed to do.
+
 ### Process note, not a rule
 
 Draft 5 cut the technical description as slop and lost the only fact that made the email worth sending — a system that creates and tests and repairs integrations, which is exactly the recipient's maintenance burden. Flagged: "you've missed on the fact that i've been building something that creates, tests, and repairs toolkits/integrations which is not larp."
