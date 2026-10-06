@@ -17,6 +17,8 @@ When Archit flags something in a draft, add an entry under the current unrelease
 
 Bump the minor version when a batch of suggestions gets folded in. Bump major on a scope change (new audience, new channel set). Date every version. Never delete an entry — supersede it with a later one and note which entry it replaces.
 
+**Versioning.** Semver, kept in three places that must agree: the `version:` field in `SKILL.md`, a git tag (`v1.1.0`), and a GitHub Release. Major = new audience or scope change. Minor = a batch of folded-in corrections. Patch = wording fixes with no new rule. A playbook marked unverified ships as a prerelease (`-beta.N`) until its rules have survived real drafts.
+
 ---
 
 ## v1.1 — 2026-08-16
