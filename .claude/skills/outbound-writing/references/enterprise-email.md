@@ -109,6 +109,10 @@ Never: `caught my eye`, `stood out`, reframes like `X has turned my job into Y`,
 
 **Entries 53-54.** Don't open with a recap of their career (`Saw you went from X to Y`). Don't reuse stock phrases across recipients. Ask the real question as a question. If you're early in your career and close to the frontier, say so plainly and admit what you don't know yet. Senior readers take that as respect.
 
+### Observations, not discovery questions
+
+**Entry 55.** Narrow either/or questions about their operations sound like a sales discovery call. Share an observation from your world that they'll have a view on, and let them react. A contrast between their known work and what you've seen works for subjects too.
+
 ### Lead with the real reason
 
 **Entry 46.** Open with why you're writing. If the goal is learning, say what you're trying to learn and why this person is worth learning it from. Your role is context and your location is logistics, so both move later. Never reuse a previous recipient's skeleton with the nouns swapped. A template shows through even when every sentence passes the audit.

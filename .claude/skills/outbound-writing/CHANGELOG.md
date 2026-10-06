@@ -143,6 +143,15 @@ What it keeps: the entire anti-slop core, plain CTAs (entry 25), no narrated mov
 **Lands in:** `enterprise-email.md`
 **Note:** Also confirmed again: a quirky local subject (`Hello from the other end of the 405`) and a reason-for-writing tied to location (`Noticed you're based in <county>`).
 
+### 55. Diagnostic either/or questions read as sales discovery
+**Flagged:** "these questions sound way too salesy"
+**Rule:** Pointed operational questions, especially binary ones (`does X land on the team or become its own line item?`, `do agents end up as a tool or change how teams are built?`), are what a vendor's sales rep asks on a discovery call to find pain they can sell into. However genuine, they read as setting up a pitch. Instead, share an observation from your own world that the reader will have an opinion on, and let them react. No question required.
+**Before:** `When agents start doing real work across those product teams, does their compute land on the team that uses them or become its own line in TBM?`
+**After:** `With agents, the startups I've been around are doing the opposite. Every team wires them up however it wants and nobody really knows what's running where.`
+**Lands in:** `enterprise-email.md`
+**Refines:** entry 53. Asking directly still beats `would like to learn how`, but an open human question passes, while a narrow diagnostic one is discovery. Observation beats either.
+**Note:** Also on subjects. Three in a row failed for being a decoded slogan, a plain number, and a pun on the number. The one that landed contrasted the reader's known work with your own world (`Startups are doing the opposite of your <talk>`).
+
 ---
 
 ## v1.1 — 2026-08-16
