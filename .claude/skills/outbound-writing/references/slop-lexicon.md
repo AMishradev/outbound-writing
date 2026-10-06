@@ -38,9 +38,11 @@ Words and phrases that mark text as machine-written. Organized by where they sho
 | absolutely, definitely, certainly | Delete |
 | passionate about | Describe what you did about it |
 | I'd love to | "I'd like to" or just make the ask |
+| I'd value hearing / I'd value your perspective | "I'd like to hear" |
 | resonated with me / really resonated | Say what you thought when you read it |
 | spoke to me / speaks to | Same |
 | stood out to me | Say what it was |
+| caught my eye / piqued my interest | State the observation plainly |
 | blown away by | Delete |
 | honored, humbled, grateful for the journey | Delete |
 | can't wait | Delete |

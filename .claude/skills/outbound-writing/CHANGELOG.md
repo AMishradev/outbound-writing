@@ -21,6 +21,130 @@ Bump the minor version when a batch of suggestions gets folded in. Bump major on
 
 ---
 
+## v2.0 — 2026-10-06 (branch: enterprise-email)
+
+Scope change, so a major bump: a second audience. Added `references/enterprise-email.md` for email to senior people at established companies.
+
+**Unlike every entry in v1.1, these rules have no provenance yet.** They are priors, not corrections. The playbook is marked v0 until its rules have survived real drafts. Log corrections below as numbered entries starting at 39, same format as before, and remove the v0 marker once the playbook has been rebuilt from them.
+
+What it inverts from `startup-outbound.md`: sentence case, kept periods, normal comma use, full signature block, employer and title always included (entry 26 reversed for this audience), no slang, no Mode 2 subjects, a time-bound meeting ask, one expected follow-up, and the disqualifier reframed as scoping rather than confession.
+
+What it keeps: the entire anti-slop core, plain CTAs (entry 25), no narrated moves (37), no explaining their business back (6), and `hi` over `hey` (31).
+
+---
+
+### 39. No time-boxed meeting ask — it reads as a sales pitch
+**Flagged:** "the worst sin is the 'Would you have 15 minutes' which is a instant killer and makes it seem like a sales pitch"
+**Rule:** Overturns the v0 prior. Senior readers get "15 minutes next week?" from every vendor alive, so the format itself marks you as one. When the goal is a relationship, ask for the relationship: coffee, sometime, somewhere real.
+**Before:** `Would you have 15 minutes in the next few weeks? I'm glad to come by the westside or keep it to a call, whichever is easier.`
+**After:** `Would be great to grab coffee in the westside sometime.`
+**Lands in:** `enterprise-email.md`
+
+### 40. Enterprise outbound is relationship-building, so give first
+**Flagged:** "the purpose of this reaching out is to build a network and relationship and in return i can share the ai insights that i got from working at northwind"
+**Rule:** Overturns the v0 framing of the email as a meeting request. State what you can offer them, plainly, as an offer rather than a credential.
+**After:** `I spent the last few months at Northwind building integrations for AI agents and I'm happy to share what I saw there.`
+**Lands in:** `enterprise-email.md`
+
+### 41. The hook is genuine interest in their company and their position
+**Flagged:** "the key to writing a great outbound email to people is to take the research you do on their company and their position and then reaching out to them because of genuine interest in what they do"
+**Rule:** Research both the company and the person's role, then write the interest at the place they intersect. An IT program director owns internal rollouts, so the interest is in how Brightwell's an enterprise AI assistant rollout actually went, not in Brightwell's AI toys.
+**Lands in:** `enterprise-email.md`
+
+### 42. Comma density applies to enterprise too, and so does the lexicon
+**Flagged:** "there's also a lot of commas and random shit in there" / "our internal teams are starting to build and run is a clear AI tell" / "I can tell by the period and the word value"
+**Rule:** Overturns the v0 prior of "normal comma amounts." Sentence case and periods stay, but explainer clauses and comma chains are as fatal to a 50-year-old as to a 28-year-old. Add `value` (`I'd value hearing`) to the lexicon. Its plain form is `I'd like to hear`. Subjectless-adjacent padding like `our teams are starting to build and run` falls under entries 30 and 33.
+**Before:** `Most of my work is getting Meridian's security systems ready for the AI agents our internal teams are starting to build and run. I saw that Brightwell rolled out an enterprise AI assistant to its teams, and I'd value hearing how a rollout like that looks from the program side.`
+**After:** `I read that Brightwell rolled out an enterprise AI assistant to its teams after its AI partnership. I'd like to hear how that actually went on the IT side since getting employees onto AI safely is most of my job right now.`
+**Lands in:** `enterprise-email.md`, `slop-lexicon.md`
+
+### 43. Count the I's
+**Flagged:** "the repeated phrasing of 'I' over and over again is not great"
+**Rule:** Six I's in five sentences makes every paragraph about you. Cap at about two per email. Fix by dropping the subject the way people do in real email (`Born and raised in Palms`, `Saw that...`, `Spent the last few months...`) and by letting the question about them stand alone.
+**Before:** `I grew up... I now work... I read... I'd like to hear... I spent... I'm happy to share`
+**After:** one `I`
+**Lands in:** `enterprise-email.md`, `audit.md` (Pass 1 count)
+
+### 44. Don't justify your interest with your own job
+**Flagged:** "this line 'I'd like to hear how that actually went on the IT side since getting employees onto AI safely is most of my job right now.' is super salesy"
+**Rule:** A question about their work stops being curiosity the moment it ends in `since that's what I do`. The trailing justification turns the question into a setup for your pitch. Ask the question and end the sentence there.
+**Before:** `I'd like to hear how that actually went on the IT side since getting employees onto AI safely is most of my job right now.`
+**After:** `Saw that Brightwell rolled out an enterprise AI assistant after its AI partnership and would like to hear how it went on the IT side.`
+**Lands in:** `enterprise-email.md`
+**Note:** Related to entry 38, but in the opposite direction. Entry 38 says an observation needs a first-person reason. This says a *question* must not get one, because there the reason reads as an agenda.
+
+### 45. Name what an unknown employer is, for senior readers
+**Flagged:** "it gives credibility to these boomers when the Northwind is called an AI startup in SF acting as a MCP gateway and integrator"
+**Rule:** Reverses entries 18 and 26 for the enterprise audience. A founder looks the company up or already knows it. A senior enterprise reader judges institutional credibility, and an unknown company name gives them nothing to judge. Add one plain descriptor: what kind of company it is, where it is, and what it does in their terms.
+**Before:** `Spent the last few months at Northwind building integrations for AI agents.`
+**After:** `Spent the last few months at Northwind, an AI startup in San Francisco that works as an MCP gateway and integrator for AI agents.`
+**Lands in:** `enterprise-email.md`
+**Note:** Still not boilerplate. It's one clause, with no adjectives about how good the company is. The location and category do the work.
+
+### 46. Lead with the real reason, and never reuse a skeleton
+**Flagged:** "the vibes of it are just off it doesn't feel natural, remember the point of reaching out to dale is to learn from him on how Brightwell is dealing with agentic security, he is probably getting a thousand of these emails today"
+**Rule:** Two failures in one draft. First, the email reused the previous recipient's skeleton (bio, company news, offer, coffee) with the nouns swapped, and a reused skeleton reads as a template even when every sentence passes audit. Second, it buried the actual reason for writing. When the goal is learning, open with what you're trying to learn and why this person is worth learning it from. Biography becomes context and location becomes logistics at the close.
+**Before:** `Born and raised in Palms... Saw that Brightwell rolled out an enterprise AI assistant... Happy to share... coffee`
+**After:** `I work on AI security at Meridian, and most of my days now go to agents that never do the same thing twice. A lot of what's written about securing them comes from vendors, so the best way to learn has been talking to people running security operations at real companies.`
+**Lands in:** `enterprise-email.md`
+**Note:** The why-them line doubles as vendor differentiation. Saying vendors are the problem tells a reader who gets a thousand vendor emails that you are not one of them, without announcing it (entry 37).
+
+### 47. Enterprise subject lines carry your strongest name, not a topic
+**Flagged:** "the subject line right now is pretty weak" (on `Agent security at Brightwell`)
+**Rule:** A topic-only subject is how vendor emails are titled, and it tells the reader nothing about who is writing. With no mutual connection and no fresh news, lead with your most recognizable institutional name and say what kind of email it is. `Question` signals an ask, not a pitch.
+**Before:** `Agent security at Brightwell`
+**After:** `Question from AI security at Meridian`
+**Lands in:** `enterprise-email.md`
+
+### 48. "Your background in X caught my eye"
+**Flagged:** "the most AI signaling phrase I've ever seen"
+**Rule:** Banned outright, along with its family: `caught my eye`, `stood out to me`, `really resonated`, `piqued my interest`. State the observation plainly and give your reason for caring (entry 38).
+**Before:** `Your background in enterprise architecture caught my eye, since...`
+**After:** `Saw you came over from enterprise architecture. Feels like the right background for this, since...`
+**Lands in:** `slop-lexicon.md`, `enterprise-email.md`
+
+### 49. Grand reframing sentences
+**Flagged:** "a pretty AI sounding sentence, the content is good but... a human would never say that"
+**Rule:** `X has turned my job into Y` and `my work has become about Z` are reframes. They narrate your life as a thesis. Say what you do the way you'd say it across a table, with `lately that mostly means`.
+**Before:** `agents have turned most of my job into securing systems that never do the same thing twice`
+**After:** `lately that mostly means figuring out how to lock down AI agents`
+**Lands in:** `syntax-tells.md`
+
+### 50. Never frame a senior person as the new or unproven one
+**Flagged:** "'would like to hear how you're sizing it up a month into the role' sounds a bit disrespectful"
+**Rule:** Research can tell you someone is new in a role. Do not say it back to them in a way that puts them under evaluation. Ask to learn, which puts you in the student seat.
+**Before:** `Would like to hear how you're sizing it up a month into the role.`
+**After:** `Would like to learn how you think about it.`
+**Lands in:** `enterprise-email.md`
+
+### 51. For enterprise readers, name the technical terms they know
+**Flagged:** "might be better when talking to these enterprise folks to just specify like MCP or A2A or buzzwords that are relevant to him"
+**Rule:** In the give line, name the specific protocols or systems the reader's job touches. To a senior technical reader, `MCP and A2A` is concrete signal. `agent integrations` is vague. This applies only to terms relevant to *their* role.
+**Before:** `Happy to share what I saw building agent integrations at Northwind`
+**After:** `Happy to share what I've seen with MCP and A2A from my time at Northwind`
+**Lands in:** `enterprise-email.md`
+
+### 52. Quirk in the subject, professionalism in the body (confirmed)
+**Flagged:** "the subject line is actually fantastic" / "grammar is important... but the actual content itself being quirky and very unique"
+**Rule:** The first confirmed *positive* rule for enterprise. Use one quirky, specific detail, ideally a callback to the person's own words, then write a clean, professional body. `Congrats on making it to the Funhouse` called back to his own "journey to the Funhouse" post. Also confirmed: logistics as the close (`Grew up in Palms, so the westside is an easy drive if coffee ever works`). Grammar must be correct throughout. `from AI security at Meridian` failed because it treated a department as a person.
+**Lands in:** `enterprise-email.md`
+**Note:** Partly supersedes entry 47. Leading with an institutional name is the fallback when no personal specific exists.
+
+### 53. Career-recap openers, and stock phrases repeated across recipients
+**Flagged:** "the phrase 'Saw you went from x to y. Would like to learn how your team thinks about x' is terrible dude thats the most AI signal phrasing ever"
+**Rule:** Two failures. First, never open by summarizing someone's career path back to them. `Saw you went from X to Y` is a LinkedIn-scrape tell. Second, `would like to learn how` had appeared in three consecutive emails. A stock phrase reused across recipients is a template even when each email passes on its own (entry 46). Ask the real question directly, as a question.
+**Before:** `Saw you went from leading migrations at <prior employer> to running voice technology at <insurer>. Would like to learn how your team thinks about securing voice agents...`
+**After:** `How is a company like <insurer> planning for agents getting access to real systems?`
+**Lands in:** `enterprise-email.md`
+
+### 54. For enterprise, your youth is the value prop, so say it plainly
+**Flagged:** "the value prop... is that I've been on the extreme edge frontier of how agentic integrations and MCP servers are being created and i bring the perspective of a young fresh person and i'm genuinely very curious about how an established company... is going to be handling agentic security"
+**Rule:** To a senior reader, being early in your career and close to the frontier is an asset, so say it in plain words (`I'm early in my career and spent the last few months building MCP servers`). Pair it with an honest admission of what you don't know yet (`Startups get to skip most of that question, so it's the part of the job I know least about`). For this audience that reads as respect, not weakness.
+**Lands in:** `enterprise-email.md`
+**Note:** Also confirmed again: a quirky local subject (`Hello from the other end of the 405`) and a reason-for-writing tied to location (`Noticed you're based in <county>`).
+
+---
+
 ## v1.1 — 2026-08-16
 
 Refocused the skill around **startup outbound to technical people**. Added `references/startup-outbound.md` as the primary playbook. All sixteen entries below came from iterating one cold email to the CEO of a defense-tech company through six drafts.

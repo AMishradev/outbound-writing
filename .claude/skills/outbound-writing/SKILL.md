@@ -1,6 +1,6 @@
 ---
 name: outbound-writing
-version: 1.1.0
+version: 2.0.0-beta.6
 description: Write or edit anything a human will read and judge, with a primary focus on startup outbound to technical people — cold emails and DMs to founders, engineers, and CTOs — plus LinkedIn posts, cover letters, job applications, essays, announcements, bios, and messages to real people. Strips the AI tells (em-dash habit, "it's not just X, it's Y", tricolons, "I hope this finds you well", delve/leverage/robust, unearned enthusiasm, the summary paragraph that adds nothing) and forces specifics. Load BEFORE drafting, not after. Also use when asked to make writing sound human, less AI, less corporate, or to de-slop existing text.
 ---
 
@@ -102,6 +102,7 @@ The constant across all of them: **plain, specific, and willing to be uninterest
 ## References
 
 - **`references/startup-outbound.md`** — **the primary playbook.** Load it for any cold email to founders, engineers, or CTOs at startups. Overrides `channels.md` where they conflict.
+- **`references/enterprise-email.md`** — load this **instead** for email to senior people at established companies (directors through C-suite). Inverts most of the founder register: sentence case, full punctuation, title and company included, signature block, time-bound meeting ask. **v0 and unverified** — no rule in it has survived a flagged draft yet.
 - **`references/linkedin-dm.md`** — load this **instead** when the channel is LinkedIn. A fork of the above: same register, different container (no subject, no sign-off, 40–70 words, one-line ask). Also covers connection-request notes and warm re-connects.
 
 Load the rest as needed:
