@@ -5,6 +5,7 @@ import { TitleScene } from "./demo/scenes/TitleScene";
 import { SlopScene } from "./demo/scenes/SlopScene";
 import { FinalScene } from "./demo/scenes/FinalScene";
 import { StatsScene } from "./demo/scenes/StatsScene";
+import { EmailDemo, EMAIL_DEMO_FRAMES } from "./demo/email/EmailDemo";
 
 export const RemotionRoot: React.FC = () => {
   return (
@@ -13,6 +14,14 @@ export const RemotionRoot: React.FC = () => {
         id="OutboundDemo"
         component={OutboundDemo}
         durationInFrames={730}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="EmailDemo"
+        component={EmailDemo}
+        durationInFrames={EMAIL_DEMO_FRAMES}
         fps={30}
         width={1920}
         height={1080}

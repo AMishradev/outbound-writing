@@ -21,6 +21,209 @@ Bump the minor version when a batch of suggestions gets folded in. Bump major on
 
 ---
 
+## v2.0.0 — 2026-10-07 (branch: enterprise-email)
+
+The enterprise playbook leaves beta as **v1 for email**. Entries 39–64 replaced or confirmed every v0 prior below, and two drafts built on them were sent. Also new: a **Peers at big companies** section (entries 56–64), the gerund-subject tell in `syntax-tells.md`, and a second Remotion demo (`EmailDemo`) that walks one real draft from its first version to the sent one.
+
+The examples are anonymized like the rest of this file. Northwind, Halcyon, Parallax and Palms stand in for real companies and places.
+
+## v2.0 — 2026-10-06 (branch: enterprise-email)
+
+Scope change, so a major bump: a second audience. Added `references/enterprise-email.md` for email to senior people at established companies.
+
+**Unlike every entry in v1.1, these rules have no provenance yet.** They are priors, not corrections. The playbook is marked v0 until its rules have survived real drafts. Log corrections below as numbered entries starting at 39, same format as before, and remove the v0 marker once the playbook has been rebuilt from them.
+
+What it inverts from `startup-outbound.md`: sentence case, kept periods, normal comma use, full signature block, employer and title always included (entry 26 reversed for this audience), no slang, no Mode 2 subjects, a time-bound meeting ask, one expected follow-up, and the disqualifier reframed as scoping rather than confession.
+
+What it keeps: the entire anti-slop core, plain CTAs (entry 25), no narrated moves (37), no explaining their business back (6), and `hi` over `hey` (31).
+
+---
+
+### 39. No time-boxed meeting ask — it reads as a sales pitch
+**Flagged:** "the worst sin is the 'Would you have 15 minutes' which is a instant killer and makes it seem like a sales pitch"
+**Rule:** Overturns the v0 prior. Senior readers get "15 minutes next week?" from every vendor alive, so the format itself marks you as one. When the goal is a relationship, ask for the relationship: coffee, sometime, somewhere real.
+**Before:** `Would you have 15 minutes in the next few weeks? I'm glad to come by the westside or keep it to a call, whichever is easier.`
+**After:** `Would be great to grab coffee in the westside sometime.`
+**Lands in:** `enterprise-email.md`
+
+### 40. Enterprise outbound is relationship-building, so give first
+**Flagged:** "the purpose of this reaching out is to build a network and relationship and in return i can share the ai insights that i got from working at northwind"
+**Rule:** Overturns the v0 framing of the email as a meeting request. State what you can offer them, plainly, as an offer rather than a credential.
+**After:** `I spent the last few months at Northwind building integrations for AI agents and I'm happy to share what I saw there.`
+**Lands in:** `enterprise-email.md`
+
+### 41. The hook is genuine interest in their company and their position
+**Flagged:** "the key to writing a great outbound email to people is to take the research you do on their company and their position and then reaching out to them because of genuine interest in what they do"
+**Rule:** Research both the company and the person's role, then write the interest at the place they intersect. An IT program director owns internal rollouts, so the interest is in how Brightwell's an enterprise AI assistant rollout actually went, not in Brightwell's AI toys.
+**Lands in:** `enterprise-email.md`
+
+### 42. Comma density applies to enterprise too, and so does the lexicon
+**Flagged:** "there's also a lot of commas and random shit in there" / "our internal teams are starting to build and run is a clear AI tell" / "I can tell by the period and the word value"
+**Rule:** Overturns the v0 prior of "normal comma amounts." Sentence case and periods stay, but explainer clauses and comma chains are as fatal to a 50-year-old as to a 28-year-old. Add `value` (`I'd value hearing`) to the lexicon. Its plain form is `I'd like to hear`. Subjectless-adjacent padding like `our teams are starting to build and run` falls under entries 30 and 33.
+**Before:** `Most of my work is getting Meridian's security systems ready for the AI agents our internal teams are starting to build and run. I saw that Brightwell rolled out an enterprise AI assistant to its teams, and I'd value hearing how a rollout like that looks from the program side.`
+**After:** `I read that Brightwell rolled out an enterprise AI assistant to its teams after its AI partnership. I'd like to hear how that actually went on the IT side since getting employees onto AI safely is most of my job right now.`
+**Lands in:** `enterprise-email.md`, `slop-lexicon.md`
+
+### 43. Count the I's
+**Flagged:** "the repeated phrasing of 'I' over and over again is not great"
+**Rule:** Six I's in five sentences makes every paragraph about you. Cap at about two per email. Fix by dropping the subject the way people do in real email (`Born and raised in Palms`, `Saw that...`, `Spent the last few months...`) and by letting the question about them stand alone.
+**Before:** `I grew up... I now work... I read... I'd like to hear... I spent... I'm happy to share`
+**After:** one `I`
+**Lands in:** `enterprise-email.md`, `audit.md` (Pass 1 count)
+
+### 44. Don't justify your interest with your own job
+**Flagged:** "this line 'I'd like to hear how that actually went on the IT side since getting employees onto AI safely is most of my job right now.' is super salesy"
+**Rule:** A question about their work stops being curiosity the moment it ends in `since that's what I do`. The trailing justification turns the question into a setup for your pitch. Ask the question and end the sentence there.
+**Before:** `I'd like to hear how that actually went on the IT side since getting employees onto AI safely is most of my job right now.`
+**After:** `Saw that Brightwell rolled out an enterprise AI assistant after its AI partnership and would like to hear how it went on the IT side.`
+**Lands in:** `enterprise-email.md`
+**Note:** Related to entry 38, but in the opposite direction. Entry 38 says an observation needs a first-person reason. This says a *question* must not get one, because there the reason reads as an agenda.
+
+### 45. Name what an unknown employer is, for senior readers
+**Flagged:** "it gives credibility to these boomers when the Northwind is called an AI startup in SF acting as a MCP gateway and integrator"
+**Rule:** Reverses entries 18 and 26 for the enterprise audience. A founder looks the company up or already knows it. A senior enterprise reader judges institutional credibility, and an unknown company name gives them nothing to judge. Add one plain descriptor: what kind of company it is, where it is, and what it does in their terms.
+**Before:** `Spent the last few months at Northwind building integrations for AI agents.`
+**After:** `Spent the last few months at Northwind, an AI startup in San Francisco that works as an MCP gateway and integrator for AI agents.`
+**Lands in:** `enterprise-email.md`
+**Note:** Still not boilerplate. It's one clause, with no adjectives about how good the company is. The location and category do the work.
+
+### 46. Lead with the real reason, and never reuse a skeleton
+**Flagged:** "the vibes of it are just off it doesn't feel natural, remember the point of reaching out to dale is to learn from him on how Brightwell is dealing with agentic security, he is probably getting a thousand of these emails today"
+**Rule:** Two failures in one draft. First, the email reused the previous recipient's skeleton (bio, company news, offer, coffee) with the nouns swapped, and a reused skeleton reads as a template even when every sentence passes audit. Second, it buried the actual reason for writing. When the goal is learning, open with what you're trying to learn and why this person is worth learning it from. Biography becomes context and location becomes logistics at the close.
+**Before:** `Born and raised in Palms... Saw that Brightwell rolled out an enterprise AI assistant... Happy to share... coffee`
+**After:** `I work on AI security at Meridian, and most of my days now go to agents that never do the same thing twice. A lot of what's written about securing them comes from vendors, so the best way to learn has been talking to people running security operations at real companies.`
+**Lands in:** `enterprise-email.md`
+**Note:** The why-them line doubles as vendor differentiation. Saying vendors are the problem tells a reader who gets a thousand vendor emails that you are not one of them, without announcing it (entry 37).
+
+### 47. Enterprise subject lines carry your strongest name, not a topic
+**Flagged:** "the subject line right now is pretty weak" (on `Agent security at Brightwell`)
+**Rule:** A topic-only subject is how vendor emails are titled, and it tells the reader nothing about who is writing. With no mutual connection and no fresh news, lead with your most recognizable institutional name and say what kind of email it is. `Question` signals an ask, not a pitch.
+**Before:** `Agent security at Brightwell`
+**After:** `Question from AI security at Meridian`
+**Lands in:** `enterprise-email.md`
+
+### 48. "Your background in X caught my eye"
+**Flagged:** "the most AI signaling phrase I've ever seen"
+**Rule:** Banned outright, along with its family: `caught my eye`, `stood out to me`, `really resonated`, `piqued my interest`. State the observation plainly and give your reason for caring (entry 38).
+**Before:** `Your background in enterprise architecture caught my eye, since...`
+**After:** `Saw you came over from enterprise architecture. Feels like the right background for this, since...`
+**Lands in:** `slop-lexicon.md`, `enterprise-email.md`
+
+### 49. Grand reframing sentences
+**Flagged:** "a pretty AI sounding sentence, the content is good but... a human would never say that"
+**Rule:** `X has turned my job into Y` and `my work has become about Z` are reframes. They narrate your life as a thesis. Say what you do the way you'd say it across a table, with `lately that mostly means`.
+**Before:** `agents have turned most of my job into securing systems that never do the same thing twice`
+**After:** `lately that mostly means figuring out how to lock down AI agents`
+**Lands in:** `syntax-tells.md`
+
+### 50. Never frame a senior person as the new or unproven one
+**Flagged:** "'would like to hear how you're sizing it up a month into the role' sounds a bit disrespectful"
+**Rule:** Research can tell you someone is new in a role. Do not say it back to them in a way that puts them under evaluation. Ask to learn, which puts you in the student seat.
+**Before:** `Would like to hear how you're sizing it up a month into the role.`
+**After:** `Would like to learn how you think about it.`
+**Lands in:** `enterprise-email.md`
+
+### 51. For enterprise readers, name the technical terms they know
+**Flagged:** "might be better when talking to these enterprise folks to just specify like MCP or A2A or buzzwords that are relevant to him"
+**Rule:** In the give line, name the specific protocols or systems the reader's job touches. To a senior technical reader, `MCP and A2A` is concrete signal. `agent integrations` is vague. This applies only to terms relevant to *their* role.
+**Before:** `Happy to share what I saw building agent integrations at Northwind`
+**After:** `Happy to share what I've seen with MCP and A2A from my time at Northwind`
+**Lands in:** `enterprise-email.md`
+
+### 52. Quirk in the subject, professionalism in the body (confirmed)
+**Flagged:** "the subject line is actually fantastic" / "grammar is important... but the actual content itself being quirky and very unique"
+**Rule:** The first confirmed *positive* rule for enterprise. Use one quirky, specific detail, ideally a callback to the person's own words, then write a clean, professional body. `Congrats on making it to the Funhouse` called back to his own "journey to the Funhouse" post. Also confirmed: logistics as the close (`Grew up in Palms, so the westside is an easy drive if coffee ever works`). Grammar must be correct throughout. `from AI security at Meridian` failed because it treated a department as a person.
+**Lands in:** `enterprise-email.md`
+**Note:** Partly supersedes entry 47. Leading with an institutional name is the fallback when no personal specific exists.
+
+### 53. Career-recap openers, and stock phrases repeated across recipients
+**Flagged:** "the phrase 'Saw you went from x to y. Would like to learn how your team thinks about x' is terrible dude thats the most AI signal phrasing ever"
+**Rule:** Two failures. First, never open by summarizing someone's career path back to them. `Saw you went from X to Y` is a LinkedIn-scrape tell. Second, `would like to learn how` had appeared in three consecutive emails. A stock phrase reused across recipients is a template even when each email passes on its own (entry 46). Ask the real question directly, as a question.
+**Before:** `Saw you went from leading migrations at <prior employer> to running voice technology at <insurer>. Would like to learn how your team thinks about securing voice agents...`
+**After:** `How is a company like <insurer> planning for agents getting access to real systems?`
+**Lands in:** `enterprise-email.md`
+
+### 54. For enterprise, your youth is the value prop, so say it plainly
+**Flagged:** "the value prop... is that I've been on the extreme edge frontier of how agentic integrations and MCP servers are being created and i bring the perspective of a young fresh person and i'm genuinely very curious about how an established company... is going to be handling agentic security"
+**Rule:** To a senior reader, being early in your career and close to the frontier is an asset, so say it in plain words (`I'm early in my career and spent the last few months building MCP servers`). Pair it with an honest admission of what you don't know yet (`Startups get to skip most of that question, so it's the part of the job I know least about`). For this audience that reads as respect, not weakness.
+**Lands in:** `enterprise-email.md`
+**Note:** Also confirmed again: a quirky local subject (`Hello from the other end of the 405`) and a reason-for-writing tied to location (`Noticed you're based in <county>`).
+
+### 55. Diagnostic either/or questions read as sales discovery
+**Flagged:** "these questions sound way too salesy"
+**Rule:** Pointed operational questions, especially binary ones (`does X land on the team or become its own line item?`, `do agents end up as a tool or change how teams are built?`), are what a vendor's sales rep asks on a discovery call to find pain they can sell into. However genuine, they read as setting up a pitch. Instead, share an observation from your own world that the reader will have an opinion on, and let them react. No question required.
+**Before:** `When agents start doing real work across those product teams, does their compute land on the team that uses them or become its own line in TBM?`
+**After:** `With agents, the startups I've been around are doing the opposite. Every team wires them up however it wants and nobody really knows what's running where.`
+**Lands in:** `enterprise-email.md`
+**Refines:** entry 53. Asking directly still beats `would like to learn how`, but an open human question passes, while a narrow diagnostic one is discovery. Observation beats either.
+**Note:** Also on subjects. Three in a row failed for being a decoded slogan, a plain number, and a pun on the number. The one that landed contrasted the reader's known work with your own world (`Startups are doing the opposite of your <talk>`).
+
+### 56. "Figuring out X was harder than Y"
+**Flagged:** "very very clear ai phrasing... the words figuring out what blah blah was always harder than blah blah is another banger ai phrasing failure pattern"
+**Rule:** A gerund clause used as the subject of a comparison (`Figuring out X was always harder than Y`, `Getting X right took longer than building Y`) is a lesson-learned aphorism. It narrates a takeaway instead of saying what happened. Cut it, or state the plain fact (`most of that time went to permissions`) and stop.
+**Before:** `Figuring out what an agent should be allowed to touch in someone's real accounts was always harder than getting it to work.`
+**After:** *(cut)*
+**Lands in:** `syntax-tells.md`
+**Note:** Same family as entries 34 (performed craft) and 49 (grand reframes).
+
+### 57. Location only when the reader is local, and lead peers with what you share
+**Flagged:** "you have overindexed in this skill on the palms connection, it's not really relevant to this guy where I live because he's in texas and doesn't really care, the parts that hit hardest for someone this junior in the same phase of life as me is trying to meet people my age who do AI work in big companies, that i do ai security and that i worked at a hot ai startup in sf"
+**Rule:** Your hometown is a hook only when the reader lives near it (entries 52 and 54 worked because the readers were in LA). For anyone else, drop it, including from the subject. For an early-career peer, what lands is the shared phase of life: say plainly that you want to meet people your age doing AI at big companies, then give your current work and the startup by name with what it is.
+**Before:** `Subject: Palms to Austin, comparing notes on agents` / `Now I do AI security in LA.`
+**After:** `Subject: Ex-Northwind, now in AI security` / `Most people my age doing AI work are at startups and I'd like to meet more of the ones at big companies like Halcyon.`
+**Lands in:** `enterprise-email.md`
+
+### 58. The subject needs something only he would recognize
+**Flagged:** "the subject line is pretty weak it's not really specific to him, there's nothing in here that really indicates anything that would make him click"
+**Rule:** A subject made only of the sender's credentials could go to anyone, so it gives the reader no reason to think the email is meant for them. The subject must carry at least one detail from the reader's own world: a past employer, a project, a phrase of theirs. Pair it with yours when the shared ground is the reason for writing. This narrows entry 47, which allowed leading with your strongest institutional name. That only works when the reader has nothing better to recognize.
+**Before:** `Ex-Northwind, now in AI security`
+**After:** `Parallax alum, meet a Northwind alum`
+**Lands in:** `enterprise-email.md`
+
+### 59. For recent grads, the hook is their college
+**Flagged:** "i don't think parallax would be that great of a pull, and the northwind name means nothing to him, notice that he's a recent grad... so a college reference or joke is always a hit with these types of guys"
+**Rule:** Refines entry 58. A detail from the reader's world only works if the reader cares about it. For a recent grad, a past gig or internship barely registers, but their college is still part of who they are. Use a campus-specific reference or a light joke only a student there would get. Also, entry 26 applies to peers: drop an employer name the reader won't know and keep only the plain descriptor (`an AI startup in SF`).
+**Before:** `Parallax alum, meet a Northwind alum` / `Spent a few months at Northwind, an AI startup in SF, building MCP servers`
+**After:** `Life after Route 1` / `Spent a few months at an AI startup in SF building MCP servers`
+**Lands in:** `enterprise-email.md`
+
+### 60. With peers, ask for their view and skip the call
+**Flagged:** "that entire ending line is just giving me weird vibes like why am i asking for a call right away? the question should maybe be something more directive and useful to that person, like i've been observing a certain pattern... and i wanted to get your perspective on it because of their unique perspective... you want to make the person reading the email realize that they are unique and special without going into ai speak with the glaze"
+**Rule:** A call ask in the first email to a peer jumps a step, and a vague offer (`Happy to share notes`) gives them nothing to act on. Close with an observed pattern from your own work and one open question that only someone in their seat can answer. Say why your view lacks their angle. Make them feel unique through the question you choose, never by saying so.
+**Before:** `Happy to share notes on MCP if they're ever useful. Would be great to hop on a call sometime.`
+**After:** `Everyone around me sits on the receiving end, so my read is one-sided. What does it look like from the side building them?`
+**Lands in:** `enterprise-email.md`
+**Note:** Entry 55 still holds. The question is open, not an either/or diagnostic.
+
+### 61. The observation has to live in the reader's world, not yours
+**Flagged:** "this random security stuff is totally irrelevant to him and his role of specialist programmer he probably doesn't care and has like no experience in that region"
+**Rule:** Refines entry 60. An observation from your own field only works if the reader's job touches it. Before you write the question, check that their role gives them a view on it. If it doesn't, ask about their own work. For a junior engineer, a plain question about what the role actually involves is the one only they can answer.
+**Before:** `Lately a lot of the agents we review were built by an outside services firm and security only sees them after they're live. ... What does it look like from the side building them?`
+**After:** `What does a specialist programmer at Halcyon actually end up working on?`
+**Lands in:** `enterprise-email.md`
+
+### 62. Say the reason without a contrast to set it up
+**Flagged:** "for the first sentence you could cut directly to the point and say something like I am trying to meet more engineers in similar roles at big companies like Halcyon"
+**Rule:** Don't build up to the reason with a contrast (`Most people X are at startups and I'd like to meet more at Y`). The setup half adds nothing, so state the reason itself.
+**Before:** `Most people my age doing AI work are at startups and I'd like to meet more engineers in similar roles at big companies like Halcyon.`
+**After:** `I'm trying to meet more engineers in similar roles at big companies like Halcyon.`
+**Lands in:** `enterprise-email.md`
+
+### 63. Hyper-specific personalization from their own posts earns the reply
+**Flagged:** "i've found a lot of success in responses from these people from some like hyper-specific things that they post about or are very passionate about, the ultra personalization does warrant a response because it causes them to be curious about how did you pull that reference about me that i myself had forgotten about"
+**Rule:** Partly overturns entry 52's "skip details that make it look like you studied them." For peers and junior readers, a detail pulled from their own posts, especially an old or obscure one they've forgotten, makes them curious how you found it, and that curiosity gets the reply. Go past the first page of their feed. The best pick is a post of theirs that lines up with your reason for writing. Use one or two callbacks, not a dossier. Follow-up flag: "you want to choose something that appears again and again appearing as a core part of his thoughts". Pick the theme they keep coming back to, not a one-off post. A birthday or a single reply is trivia. The thing they post about every week is who they are.
+**After:** `Subject: Apologizing in advance for the 3-peat` (he posts about the Dodgers and playoff predictability several times a week) / `Between the fWAR takes and the weekly picks do you run your own models or is it all gut?`
+**Lands in:** `enterprise-email.md`
+
+### 64. The close has to serve the relationship
+**Flagged:** "the last line doesn't really make sense on what i'm asking, the goal of these emails to someone at his spot is to build a relationship"
+**Rule:** A clever question about their hobby is a quiz. It gets one answer and the thread dies. When the goal is a relationship, close with a plain invitation to something ongoing and low-stakes, built around the thing they care about. It shouldn't be a one-off question or a call.
+**Before:** `Between the fWAR takes and the weekly picks do you run your own models or is it all gut?`
+**After:** `Would be fun to trade NFL picks with you for the rest of the season.`
+**Lands in:** `enterprise-email.md`
+
+---
+
 ## v1.1 — 2026-08-16
 
 Refocused the skill around **startup outbound to technical people**. Added `references/startup-outbound.md` as the primary playbook. All sixteen entries below came from iterating one cold email to the CEO of a defense-tech company through six drafts.

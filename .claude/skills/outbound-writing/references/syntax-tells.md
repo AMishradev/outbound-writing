@@ -291,3 +291,11 @@ A human writing to a specific person includes details that serve no rhetorical p
 - ✅ "I worked on the payments reconciliation job — the thing that matches our ledger against Stripe's settlement file every night at 2am. It broke a lot."
 
 The "every night at 2am" earns nothing argumentatively. That's why it reads as real.
+
+## 16. The gerund-subject lesson
+
+**Entry 56.** A gerund clause as the subject of a comparison reads as a takeaway someone rehearsed: `Figuring out X was always harder than Y`, `Getting X right took longer than building Y`, `Knowing when to X matters more than Y`. People say what happened instead.
+
+- ❌ "Figuring out what an agent should be allowed to touch was always harder than getting it to work."
+- ✅ "Most of that time went to permissions."
+

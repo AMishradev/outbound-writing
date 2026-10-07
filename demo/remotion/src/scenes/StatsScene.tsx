@@ -1,8 +1,14 @@
 import { AbsoluteFill, Easing, interpolate, useCurrentFrame } from "remotion";
-import { STATS } from "../content";
+import { STATS as DEFAULT_STATS } from "../content";
 import { C, mono, sans } from "../theme";
 
-export const StatsScene: React.FC = () => {
+type Stat = { label: string; from: number; to: number };
+type StatsProps = { title?: string; stats?: Stat[] };
+
+export const StatsScene: React.FC<StatsProps> = ({
+  title = "one email, seven drafts",
+  stats = DEFAULT_STATS,
+}) => {
   const frame = useCurrentFrame();
 
   return (
@@ -28,11 +34,11 @@ export const StatsScene: React.FC = () => {
           }),
         }}
       >
-        one email, seven drafts
+        {title}
       </div>
 
       <div style={{ display: "flex", flexDirection: "column", gap: 18 }}>
-        {STATS.map((s, i) => {
+        {stats.map((s, i) => {
           const appear = 12 + i * 9;
           return (
             <div

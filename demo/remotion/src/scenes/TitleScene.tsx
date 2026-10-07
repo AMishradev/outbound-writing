@@ -1,7 +1,13 @@
 import { AbsoluteFill, Easing, Interactive, interpolate, useCurrentFrame } from "remotion";
 import { C, mono, sans } from "../theme";
 
-export const TitleScene: React.FC = () => {
+type TitleProps = { eyebrow?: string; headline?: string; subhead?: string };
+
+export const TitleScene: React.FC<TitleProps> = ({
+  eyebrow = "CLAUDE CODE SKILL",
+  headline = "outbound-writing",
+  subhead = "strips the AI tells out of cold email",
+}) => {
   const frame = useCurrentFrame();
 
   return (
@@ -30,7 +36,7 @@ export const TitleScene: React.FC = () => {
           }),
         }}
       >
-        CLAUDE CODE SKILL
+        {eyebrow}
       </Interactive.Div>
 
       <Interactive.Div
@@ -53,7 +59,7 @@ export const TitleScene: React.FC = () => {
           }),
         }}
       >
-        outbound-writing
+        {headline}
       </Interactive.Div>
 
       <Interactive.Div
@@ -75,7 +81,7 @@ export const TitleScene: React.FC = () => {
           }),
         }}
       >
-        strips the AI tells out of cold email
+        {subhead}
       </Interactive.Div>
     </AbsoluteFill>
   );

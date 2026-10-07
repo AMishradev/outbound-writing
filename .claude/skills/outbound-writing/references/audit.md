@@ -26,6 +26,7 @@ Literally count. Don't eyeball.
 | Bulleted lists | 0 in emails under 200 words | Convert to prose |
 | Bolded lead-ins inside bullets | Only if list is 4+ items and genuinely scannable | Unbold |
 | Paragraphs over 5 sentences | 0 | Split |
+| First-person `I` | ~2 per email | Drop the subject, or lead with them |
 | Consecutive paragraphs of the same length | 2 max | Vary |
 
 ## Pass 2 — Grep the lexicon

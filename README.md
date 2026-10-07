@@ -36,6 +36,7 @@ It loads automatically when you ask Claude Code to write or fix an email, DM, co
 |---|---|
 | `SKILL.md` | Workflow, hard bans, the fact-gathering step |
 | `references/startup-outbound.md` | **Primary playbook** — cold email to founders and engineers |
+| `references/enterprise-email.md` | **v1 for email** — senior readers and early-career peers at big companies |
 | `references/audit.md` | Seven-pass mechanical check with countable limits |
 | `references/slop-lexicon.md` | ~250 banned words and phrases, with what to write instead |
 | `references/syntax-tells.md` | 15 structural patterns — rhythm, sentence shapes, tonal defaults |
@@ -80,7 +81,12 @@ The word, comma, exclamation, and em-dash counts in the final card are computed 
 
 ```bash
 npx remotion render OutboundDemo out.mp4 --codec=h264 --crf=18
+npx remotion render EmailDemo out.mp4 --codec=h264 --crf=18
 ```
+
+`EmailDemo` covers the enterprise playbook. It walks one real peer email from the first draft, with the five lines that got flagged, to the version that was sent.
+
+![email demo](demo/email-demo.gif)
 
 ## Note
 
