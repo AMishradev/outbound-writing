@@ -1,8 +1,8 @@
 # Enterprise email
 
-For email to senior people at established companies: directors, VPs, SVPs, C-suite. Mostly Gen X and older millennials. Load this **instead of** `startup-outbound.md` when the reader works somewhere with a procurement department.
+For email to people at established companies. There are two readers. One is senior: directors, VPs, SVPs, C-suite, mostly Gen X and older millennials. The other is an early-career peer: a recent grad who just landed at a big company. Load this **instead of** `startup-outbound.md` when the reader works somewhere with a procurement department.
 
-> **Status: v0, unverified.** Every rule in `startup-outbound.md` came from a correction on a real draft. The rules below are starting priors that have not been tested against a single flagged draft yet. Treat them as hypotheses, and log each correction in `CHANGELOG.md` as it arrives, the same way the founder playbook was built.
+> **Status: v1.** The v0 priors have been rebuilt from entries 39–64, each one a correction on a real draft. Two of those drafts were sent. Where a v0 rule failed, the section says which entry corrected it. Keep logging corrections in `CHANGELOG.md`.
 
 ---
 
@@ -67,20 +67,22 @@ Director of Platform Engineering, Northwind
 ## Structure
 
 ```
-Subject: <plain, descriptive, under eight words>
+Subject: <one detail from their world, under eight words>
 
 Hi <first name>,
 
-<Why them, one sentence, tied to something they said or published.>
+<The real reason you're writing, stated directly.>
 
 <Who you are and the one relevant thing, two sentences max.>
 
-<The ask: specific, time-bound, easy to say yes to.>
+<The ask: coffee sometime if you're local, or an offer of what you've seen. Never a timebox.>
 
 Best,
 
 <signature block>
 ```
+
+For a peer, drop `Best,` and the signature block and sign with your first name. See **Peers at big companies** below.
 
 ### The opening line
 
@@ -105,6 +107,8 @@ When the goal is a relationship, ask for one. Plainly, with no timebox:
 
 Never: `caught my eye`, `stood out`, reframes like `X has turned my job into Y`, or anything that puts a senior person under evaluation (`a month into the role`). In the give line, name the protocols their job touches (`MCP and A2A`).
 
+**Entry 63.** For peers and junior readers, go further. Read past the first page of their posts and use one or two hyper-specific details, ideally something they've forgotten they wrote. They will wonder how you found it, and that gets the reply. The best one lines up with your reason for writing. One or two callbacks, never a dossier. Pick the theme they return to again and again, not a one-off post. Their weekly obsession tells you more than their birthday.
+
 ### Ask directly, and use your youth
 
 **Entries 53-54.** Don't open with a recap of their career (`Saw you went from X to Y`). Don't reuse stock phrases across recipients. Ask the real question as a question. If you're early in your career and close to the frontier, say so plainly and admit what you don't know yet. Senior readers take that as respect.
@@ -116,6 +120,20 @@ Never: `caught my eye`, `stood out`, reframes like `X has turned my job into Y`,
 ### Lead with the real reason
 
 **Entry 46.** Open with why you're writing. If the goal is learning, say what you're trying to learn and why this person is worth learning it from. Your role is context and your location is logistics, so both move later. Never reuse a previous recipient's skeleton with the nouns swapped. A template shows through even when every sentence passes the audit.
+
+**Entry 62.** State the reason directly. A contrast set up in front of it (`Most people X are at startups and...`) is padding.
+
+### Location is a hook only for local readers
+
+**Entry 57.** A hometown line works when the reader lives near it. To someone in another state it is noise, so leave it out of the subject and the body. For an early-career peer at a big company, lead with what you share instead: you are trying to meet people your age doing AI at big companies. Then say what you do now and name the startup with one plain descriptor.
+
+### Peers: ask for their view, not a call
+
+**Entry 60.** In a first email to a peer, a call ask jumps a step. Close instead with a pattern you have seen in your own work, then one open question that only someone in their seat can answer. Admit why your view lacks their angle (`Everyone around me sits on the receiving end, so my read is one-sided`). The question is what makes them feel unique, so never say it outright.
+
+**Entry 61.** The pattern has to be one that their role gives them a view on. Don't bring your own field's problems to someone who has never worked in it. If no shared pattern exists, ask about their own work (`What does a specialist programmer at Halcyon actually end up working on?`).
+
+**Entry 64.** When the goal is a relationship, the close should invite something ongoing and low-stakes around what they care about (`Would be fun to trade NFL picks with you for the rest of the season`). A clever question gets one answer and the thread ends there.
 
 ### Keep yourself out of most sentences
 
@@ -134,6 +152,8 @@ Never: `caught my eye`, `stood out`, reframes like `X has turned my job into Y`,
 Mode 1a (recent company news) still works, phrased plainly: `Your Q3 comments on vendor consolidation`. A mutual connection is the strongest subject available: `Introduction via Mark Chen`. Mode 2 (`defector from saas`) does not exist in this playbook.
 
 With no mutual connection and no fresh news, **lead with your strongest institutional name** (entry 47). `Question from AI security at Meridian` beats `Agent security at Brightwell`. A topic-only subject is how vendors title their emails.
+
+**Entry 58.** Whatever the mode, the subject needs one detail from the reader's world that they will recognize as theirs. A subject made only of your own credentials could go to anyone. **Entry 59:** pick the detail they care about. For a recent grad that is their college, so use a campus-specific reference or a light joke only a student there would get (`Life after Route 1` for a Maryland grad). A past gig barely registers, and an employer name they don't know means nothing to them, so drop it and keep the plain descriptor.
 
 ### The disqualifier
 
@@ -166,9 +186,9 @@ Expected, and silence is not a no. Send one after five to seven business days, a
 >
 > At re:Invent you said integration maintenance now takes more of your platform team's time than new work. That's the problem I spend my days on.
 >
-> I'm an engineer at Northwind, where I built the system that tests and repairs our agent integrations automatically when upstream APIs change. It's most relevant if your team is already running agents against internal tools.
+> Spent the last few months building agent integrations at Northwind, an AI startup in San Francisco. Happy to share what I've seen with MCP and A2A there.
 >
-> Would you have 20 minutes the week of the 14th? Happy to work around your calendar.
+> Would be great to grab coffee in the westside sometime.
 >
 > Best,
 >
@@ -176,4 +196,35 @@ Expected, and silence is not a no. Send one after five to seven business days, a
 > Software Engineer, Northwind
 > (415) 555-0199
 
-The opening line is the whole email. It proves you listened to them specifically, it is their priority rather than your pitch, and it makes the rest of the email the answer to a problem they already said out loud.
+The opening line is the whole email. It proves you listened to them specifically, and it puts their priority first instead of your pitch. The close asks for a relationship rather than a slot on their calendar (entry 39).
+
+---
+
+## Peers at big companies
+
+**Entries 56–64.** A recent grad at a big company is not a senior reader. They're in the same stage of life as you, and the email should read that way.
+
+| | Enterprise seniors | Peers at big companies |
+|---|---|---|
+| Case | Sentence case | Sentence case |
+| Sign-off | Full signature block | First name |
+| Length | 75–150 words | 30–50 words |
+| Your employer | Named, with a descriptor | Descriptor only (`an AI startup in SF`) if they won't know the name |
+| Subject | Your strongest name, or their words | Their recurring obsession, or a college joke |
+| Ask | Coffee sometime | Something ongoing and low-stakes around what they care about |
+
+### After (peer)
+
+> Subject: Apologizing in advance for the 3-peat
+>
+> Hi Dev,
+>
+> Been trying to get to know more people my age who ended up at big companies after school.
+>
+> I was at an AI startup in SF for a few months and do AI security now.
+>
+> Would be fun to trade NFL picks with you for the rest of the season.
+>
+> Archit
+
+He posts about the Dodgers and playoff predictability several times a week, so the subject joke is aimed at the thing he keeps coming back to. The sender is in LA, so the joke is on him. The body is the reason, then who you are, then the invitation. Each line hands off to the next.

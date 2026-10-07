@@ -21,6 +21,12 @@ Bump the minor version when a batch of suggestions gets folded in. Bump major on
 
 ---
 
+## v2.0.0 — 2026-10-07 (branch: enterprise-email)
+
+The enterprise playbook leaves beta as **v1 for email**. Entries 39–64 replaced or confirmed every v0 prior below, and two drafts built on them were sent. Also new: a **Peers at big companies** section (entries 56–64), the gerund-subject tell in `syntax-tells.md`, and a second Remotion demo (`EmailDemo`) that walks one real draft from its first version to the sent one.
+
+The examples are anonymized like the rest of this file. Northwind, Halcyon, Parallax and Palms stand in for real companies and places.
+
 ## v2.0 — 2026-10-06 (branch: enterprise-email)
 
 Scope change, so a major bump: a second audience. Added `references/enterprise-email.md` for email to senior people at established companies.
@@ -151,6 +157,70 @@ What it keeps: the entire anti-slop core, plain CTAs (entry 25), no narrated mov
 **Lands in:** `enterprise-email.md`
 **Refines:** entry 53. Asking directly still beats `would like to learn how`, but an open human question passes, while a narrow diagnostic one is discovery. Observation beats either.
 **Note:** Also on subjects. Three in a row failed for being a decoded slogan, a plain number, and a pun on the number. The one that landed contrasted the reader's known work with your own world (`Startups are doing the opposite of your <talk>`).
+
+### 56. "Figuring out X was harder than Y"
+**Flagged:** "very very clear ai phrasing... the words figuring out what blah blah was always harder than blah blah is another banger ai phrasing failure pattern"
+**Rule:** A gerund clause used as the subject of a comparison (`Figuring out X was always harder than Y`, `Getting X right took longer than building Y`) is a lesson-learned aphorism. It narrates a takeaway instead of saying what happened. Cut it, or state the plain fact (`most of that time went to permissions`) and stop.
+**Before:** `Figuring out what an agent should be allowed to touch in someone's real accounts was always harder than getting it to work.`
+**After:** *(cut)*
+**Lands in:** `syntax-tells.md`
+**Note:** Same family as entries 34 (performed craft) and 49 (grand reframes).
+
+### 57. Location only when the reader is local, and lead peers with what you share
+**Flagged:** "you have overindexed in this skill on the palms connection, it's not really relevant to this guy where I live because he's in texas and doesn't really care, the parts that hit hardest for someone this junior in the same phase of life as me is trying to meet people my age who do AI work in big companies, that i do ai security and that i worked at a hot ai startup in sf"
+**Rule:** Your hometown is a hook only when the reader lives near it (entries 52 and 54 worked because the readers were in LA). For anyone else, drop it, including from the subject. For an early-career peer, what lands is the shared phase of life: say plainly that you want to meet people your age doing AI at big companies, then give your current work and the startup by name with what it is.
+**Before:** `Subject: Palms to Austin, comparing notes on agents` / `Now I do AI security in LA.`
+**After:** `Subject: Ex-Northwind, now in AI security` / `Most people my age doing AI work are at startups and I'd like to meet more of the ones at big companies like Halcyon.`
+**Lands in:** `enterprise-email.md`
+
+### 58. The subject needs something only he would recognize
+**Flagged:** "the subject line is pretty weak it's not really specific to him, there's nothing in here that really indicates anything that would make him click"
+**Rule:** A subject made only of the sender's credentials could go to anyone, so it gives the reader no reason to think the email is meant for them. The subject must carry at least one detail from the reader's own world: a past employer, a project, a phrase of theirs. Pair it with yours when the shared ground is the reason for writing. This narrows entry 47, which allowed leading with your strongest institutional name. That only works when the reader has nothing better to recognize.
+**Before:** `Ex-Northwind, now in AI security`
+**After:** `Parallax alum, meet a Northwind alum`
+**Lands in:** `enterprise-email.md`
+
+### 59. For recent grads, the hook is their college
+**Flagged:** "i don't think parallax would be that great of a pull, and the northwind name means nothing to him, notice that he's a recent grad... so a college reference or joke is always a hit with these types of guys"
+**Rule:** Refines entry 58. A detail from the reader's world only works if the reader cares about it. For a recent grad, a past gig or internship barely registers, but their college is still part of who they are. Use a campus-specific reference or a light joke only a student there would get. Also, entry 26 applies to peers: drop an employer name the reader won't know and keep only the plain descriptor (`an AI startup in SF`).
+**Before:** `Parallax alum, meet a Northwind alum` / `Spent a few months at Northwind, an AI startup in SF, building MCP servers`
+**After:** `Life after Route 1` / `Spent a few months at an AI startup in SF building MCP servers`
+**Lands in:** `enterprise-email.md`
+
+### 60. With peers, ask for their view and skip the call
+**Flagged:** "that entire ending line is just giving me weird vibes like why am i asking for a call right away? the question should maybe be something more directive and useful to that person, like i've been observing a certain pattern... and i wanted to get your perspective on it because of their unique perspective... you want to make the person reading the email realize that they are unique and special without going into ai speak with the glaze"
+**Rule:** A call ask in the first email to a peer jumps a step, and a vague offer (`Happy to share notes`) gives them nothing to act on. Close with an observed pattern from your own work and one open question that only someone in their seat can answer. Say why your view lacks their angle. Make them feel unique through the question you choose, never by saying so.
+**Before:** `Happy to share notes on MCP if they're ever useful. Would be great to hop on a call sometime.`
+**After:** `Everyone around me sits on the receiving end, so my read is one-sided. What does it look like from the side building them?`
+**Lands in:** `enterprise-email.md`
+**Note:** Entry 55 still holds. The question is open, not an either/or diagnostic.
+
+### 61. The observation has to live in the reader's world, not yours
+**Flagged:** "this random security stuff is totally irrelevant to him and his role of specialist programmer he probably doesn't care and has like no experience in that region"
+**Rule:** Refines entry 60. An observation from your own field only works if the reader's job touches it. Before you write the question, check that their role gives them a view on it. If it doesn't, ask about their own work. For a junior engineer, a plain question about what the role actually involves is the one only they can answer.
+**Before:** `Lately a lot of the agents we review were built by an outside services firm and security only sees them after they're live. ... What does it look like from the side building them?`
+**After:** `What does a specialist programmer at Halcyon actually end up working on?`
+**Lands in:** `enterprise-email.md`
+
+### 62. Say the reason without a contrast to set it up
+**Flagged:** "for the first sentence you could cut directly to the point and say something like I am trying to meet more engineers in similar roles at big companies like Halcyon"
+**Rule:** Don't build up to the reason with a contrast (`Most people X are at startups and I'd like to meet more at Y`). The setup half adds nothing, so state the reason itself.
+**Before:** `Most people my age doing AI work are at startups and I'd like to meet more engineers in similar roles at big companies like Halcyon.`
+**After:** `I'm trying to meet more engineers in similar roles at big companies like Halcyon.`
+**Lands in:** `enterprise-email.md`
+
+### 63. Hyper-specific personalization from their own posts earns the reply
+**Flagged:** "i've found a lot of success in responses from these people from some like hyper-specific things that they post about or are very passionate about, the ultra personalization does warrant a response because it causes them to be curious about how did you pull that reference about me that i myself had forgotten about"
+**Rule:** Partly overturns entry 52's "skip details that make it look like you studied them." For peers and junior readers, a detail pulled from their own posts, especially an old or obscure one they've forgotten, makes them curious how you found it, and that curiosity gets the reply. Go past the first page of their feed. The best pick is a post of theirs that lines up with your reason for writing. Use one or two callbacks, not a dossier. Follow-up flag: "you want to choose something that appears again and again appearing as a core part of his thoughts". Pick the theme they keep coming back to, not a one-off post. A birthday or a single reply is trivia. The thing they post about every week is who they are.
+**After:** `Subject: Apologizing in advance for the 3-peat` (he posts about the Dodgers and playoff predictability several times a week) / `Between the fWAR takes and the weekly picks do you run your own models or is it all gut?`
+**Lands in:** `enterprise-email.md`
+
+### 64. The close has to serve the relationship
+**Flagged:** "the last line doesn't really make sense on what i'm asking, the goal of these emails to someone at his spot is to build a relationship"
+**Rule:** A clever question about their hobby is a quiz. It gets one answer and the thread dies. When the goal is a relationship, close with a plain invitation to something ongoing and low-stakes, built around the thing they care about. It shouldn't be a one-off question or a call.
+**Before:** `Between the fWAR takes and the weekly picks do you run your own models or is it all gut?`
+**After:** `Would be fun to trade NFL picks with you for the rest of the season.`
+**Lands in:** `enterprise-email.md`
 
 ---
 
