@@ -14,6 +14,8 @@ type Props = {
   start: number;
   /** frames each callout holds */
   step: number;
+  /** callout tag words, default TELL / KEEP */
+  tags?: [string, string];
 };
 
 export const EmailScene: React.FC<Props> = ({
@@ -23,6 +25,7 @@ export const EmailScene: React.FC<Props> = ({
   label,
   start,
   step,
+  tags = ["TELL", "KEEP"],
 }) => {
   const frame = useCurrentFrame();
   const hot = variant === "slop" ? C.red : C.green;
@@ -141,9 +144,7 @@ export const EmailScene: React.FC<Props> = ({
                 marginBottom: 16,
               }}
             >
-              {variant === "slop"
-                ? `TELL ${active + 1}/${items.length}`
-                : `KEEP ${active + 1}/${items.length}`}
+              {`${variant === "slop" ? tags[0] : tags[1]} ${active + 1}/${items.length}`}
             </div>
             <div
               style={{
