@@ -21,9 +21,29 @@ Bump the minor version when a batch of suggestions gets folded in. Bump major on
 
 ---
 
+## v2.2.0 — 2026-11-03 (branch: real-estate)
+
+Entries 66–67. Anand rewrote a draft himself and liked *his* version better. Two moves in the AI draft were the problem: asserting the shared history out loud, and a first line that framed the whole email as a reveal. Both are the same failure — reaching to close the relationship gap before the reader has agreed there is one.
+
+### 66. State who you are, do not assert the shared history
+**Flagged:** "i don't like that we are so forward in how we immediately assume or try to close the gap in relations" — on `We are running the same playbook twenty years apart`. Also on `Here's the part that's actually useful to you` (manufactured hesitation, 2c) and `you and I are the same story twenty years apart`.
+**Rule:** When sender and recipient genuinely share a background, do not narrate the similarity at them in the first lines. State your own biography and stop. The reader will hear their own story in it and the similarity lands harder for being unclaimed. One line naming the overlap is the maximum, and it should come after the facts, not before. Applies hardest to immigrant, regional and alumni overlap, where the temptation to say `same story` is strongest.
+**Before:** `We are running the same playbook twenty years apart. You came from Madanapalle and I came from Allahabad.`
+**After:** `My name is Anand Mishra. I was born and raised in Allahabad and have spent the last 27 years in Torrance.`
+**Lands in:** `enterprise-email.md`
+
+### 67. Let the sender's own written draft win on register
+**Flagged:** "steer the email following this written version email i wrote up" / "i like the direction the ncieness and they less heaviness it has"
+**Rule:** When the sender has drafted the email themselves, their draft is the register spec, not a rough draft to be improved. Keep their sentences and their rhythm, fix only facts, spelling and the mechanical tells. Do not restore a fact the sender dropped because it reads better to you — they cut it for a reason. Where the sender's own phrasing is broken or misspelled, correct it in place rather than replacing the line. The AI draft's job is subtraction, not rewriting.
+**Before:** a fuller AI draft with the overlap asserted, a `here's the part that's useful` transition, and a three-item broker list
+**After:** sender's own three short paragraphs, two-item list, `Cheers, Anand`, everything else cut
+**Lands in:** `enterprise-email.md`
+
+---
+
 ## v2.1.0 — 2026-11-03 (branch: real-estate)
 
-Adds a vertical-specific sign-off: real estate emails always end `Cheers, Anand` (entry 65).
+Adds a vertical-specific sign-off: real estate emails always end `Cheers, Anand` (entry 65). Where v2.2.0 and v2.1.0 conflict, v2.2.0 wins.
 
 ### 65. Real estate emails always end with `Cheers, Anand`
 **Flagged:** "real estate emails should always end with a Cheers, Anand"

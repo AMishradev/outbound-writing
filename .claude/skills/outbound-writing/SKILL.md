@@ -1,6 +1,6 @@
 ---
 name: outbound-writing
-version: 2.1.0
+version: 2.2.0
 description: Write or edit anything a human will read and judge, with a primary focus on startup outbound to technical people — cold emails and DMs to founders, engineers, and CTOs — plus LinkedIn posts, cover letters, job applications, essays, announcements, bios, and messages to real people. Strips the AI tells (em-dash habit, "it's not just X, it's Y", tricolons, "I hope this finds you well", delve/leverage/robust, unearned enthusiasm, the summary paragraph that adds nothing) and forces specifics. Load BEFORE drafting, not after. Also use when asked to make writing sound human, less AI, less corporate, or to de-slop existing text.
 ---
 
@@ -73,6 +73,8 @@ Includes the **compressed form**, which evades the check because it contains no 
 
 **Explaining the recipient's business back to them.** "Kestrel has a harder version of the same problem, 100+ vendor systems on one platform." "You're building the same layer for defense hardware." They know. Narrating their own company at them reads as a consultant pitch or as a model proving it read the website. Describe your work and let them make the connection. Never assess their stakes for them.
 
+**Asserting a shared history at the reader.** The same move applied to *you* rather than to them. `We are running the same playbook twenty years apart.` `You and I have the same story.` The reader has not agreed you are alike yet, so saying it reads as a reveal. State your own facts and let them hear themselves in it. One line naming the overlap is the maximum, and it goes after the facts, not before. Strongest pull is on immigrant and regional overlap (entry 66).
+
 **Tricolons.** "Faster, cheaper, and more reliable." "Clear. Concise. Human." Any three parallel items, especially adjectives. Cap: **one per piece, and only if the three items are genuinely distinct.** Two items is fine and reads human. Four is fine. Three parallel items is the tell.
 
 **Em-dashes.** Cap: **one per ~400 words**, zero in anything under 150 words. Use a period, a comma, or a colon. (The em-dash isn't bad writing; the *density* is the tell.)
@@ -102,7 +104,7 @@ The constant across all of them: **plain, specific, and willing to be uninterest
 ## References
 
 - **`references/startup-outbound.md`** — **the primary playbook.** Load it for any cold email to founders, engineers, or CTOs at startups. Overrides `channels.md` where they conflict.
-- **`references/enterprise-email.md`** — load this **instead** for email to people at established companies: senior readers (directors through C-suite) and early-career peers who just landed at one. Sentence case, full punctuation, an unknown employer described in one clause, a quirky subject built from their own world, and a relationship ask instead of a timeboxed meeting. **v1**, rebuilt from entries 39–64.
+- **`references/enterprise-email.md`** — load this **instead** for email to people at established companies: senior readers (directors through C-suite) and early-career peers who just landed at one. Sentence case, full punctuation, an unknown employer described in one clause, a quirky subject built from their own world, and a relationship ask instead of a timeboxed meeting. **v1**, rebuilt from entries 39–64. Also carries the real-estate sign-off (entry 65), the do-not-assert-the-shared-history rule (entry 66), and the sender-drafted-it-themselves rule (entry 67).
 - **`references/linkedin-dm.md`** — load this **instead** when the channel is LinkedIn. A fork of the above: same register, different container (no subject, no sign-off, 40–70 words, one-line ask). Also covers connection-request notes and warm re-connects.
 
 Load the rest as needed:
@@ -119,3 +121,5 @@ Load the rest as needed:
 Preserve their voice; remove the tells. Their odd word choices, their sentence quirks, their lack of parallelism: that's the signal, keep it. Cut the parts that sound like they were smoothed over.
 
 Show the diff or the rewrite, and name the two or three biggest problems in one line each. Don't lecture, and don't rewrite a piece that's already fine just to demonstrate effort.
+
+**If the sender wrote the draft themselves** (not a previous model), their version is the register spec. Fix facts, spelling and the mechanical tells only. Don't restore a fact they dropped, and don't rewrite lines that are merely different from how you would say it. Where their phrasing is misspelled or broken, correct it in place. Subtraction, not rewriting (entry 67).

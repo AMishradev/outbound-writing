@@ -86,6 +86,8 @@ For a peer, drop `Best,` and the signature block and sign with your first name. 
 
 If the vertical is real estate, close with `Cheers,` and `Anand` in place of the block (entry 65).
 
+If the sender has drafted the email themselves, the structure above is a checklist to check their draft against, not a template to lay over it. See **When the sender drafted it themselves** (entry 67).
+
 ### Real estate emails always end with `Cheers, Anand`
 
 **Entry 65.** When the vertical is real estate, the sign-off is fixed: `Cheers,` on its own line and `Anand` below it, regardless of the register above. It overrides both the `Best,` block for seniors and the bare first-name close for peers. Everything else (sentence case, comma discipline, the ask) is unchanged; only the close flips.
@@ -102,6 +104,33 @@ Anand
 Senior people respond to their own stated priorities. The strongest source is something they said on the record: an earnings call, an investor day, a conference talk, an interview, an annual letter. Quote or paraphrase it accurately and say why it's why you're writing.
 
 A mutual connection beats all of it. If one exists, it goes in the subject and the first line: `Mark Chen suggested I reach out`.
+
+### Do not assert the shared history
+
+**Entry 66.** When you and the reader genuinely share a background — both immigrants, both from the same region, same college, same career path twenty years apart — the temptation is to say so in the first line. `We are running the same playbook twenty years apart.` It reads as a reveal, and it is doing work the reader has not agreed to yet. They have not decided you are alike; you are telling them they are.
+
+The fix is to state your own biography and stop. `My name is Anand Mishra. I was born and raised in Allahabad and have spent the last 27 years in Torrance.` A reader from Madanapalle hears their own story in it in half a second, and the similarity lands harder for being unclaimed.
+
+One line naming the overlap is the maximum, and it belongs *after* the facts, not in front of them. This applies hardest to immigrant, regional and alumni overlap, where the pull toward `same story` is strongest.
+
+Related tells that ride along with this one, and the same instinct behind them:
+
+- `Here's the part that's actually useful to you` — a manufactured hesitation (syntax tells 2c). Just say the useful part.
+- `you and I are the same story twenty years apart` — the overlap asserted twice; state it once or not at all.
+
+### When the sender drafted it themselves
+
+**Entry 67.** If the sender writes their own version of the email, that draft is the **register spec**, not a rough draft for you to improve. Their sentences, their paragraph breaks and their rhythm are the target. Keep them.
+
+Fix only:
+
+- **Facts** — a wrong city, a wrong year. (In one real draft, `Allapur` for `Allahabad`, which the sender would not have caught because it was his own memory.)
+- **Spelling and grammar** in his own phrasing, corrected in place rather than replaced.
+- **The mechanical tells** — a three-item list that should be two, a comma-appositive, a manufactured transition.
+
+Do not restore a fact the sender dropped because it reads better to you. He cut `loan officer` and `bridging fellow North Indians` on purpose. Offer them back as a named option, with the cost of each, and let him decide. The AI draft's job on a sender-written email is **subtraction, not rewriting**.
+
+When a sender says they like the lightness and directness of their own version, that is a register instruction. Match it. The heavy, knowing, fully-reasoned version is the failure mode here.
 
 ### The ask
 
