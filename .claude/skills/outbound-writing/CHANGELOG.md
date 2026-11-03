@@ -21,6 +21,19 @@ Bump the minor version when a batch of suggestions gets folded in. Bump major on
 
 ---
 
+## v2.1.0 — 2026-11-03 (branch: real-estate)
+
+Adds a vertical-specific sign-off: real estate emails always end `Cheers, Anand` (entry 65).
+
+### 65. Real estate emails always end with `Cheers, Anand`
+**Flagged:** "real estate emails should always end with a Cheers, Anand"
+**Rule:** When the vertical is real estate, the close is fixed: `Cheers,` on its own line and `Anand` below it. It overrides both the enterprise `Best,` signature block and the bare first-name close for peers. Nothing else changes.
+**Before:** `Best,` + full signature block (seniors) or bare first name (peers)
+**After:** `Cheers,` / `Anand`
+**Lands in:** `enterprise-email.md`
+
+---
+
 ## v2.0.0 — 2026-10-07 (branch: enterprise-email)
 
 The enterprise playbook leaves beta as **v1 for email**. Entries 39–64 replaced or confirmed every v0 prior below, and two drafts built on them were sent. Also new: a **Peers at big companies** section (entries 56–64), the gerund-subject tell in `syntax-tells.md`, and a second Remotion demo (`EmailDemo`) that walks one real draft from its first version to the sent one.

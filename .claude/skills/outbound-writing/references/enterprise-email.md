@@ -84,6 +84,19 @@ Best,
 
 For a peer, drop `Best,` and the signature block and sign with your first name. See **Peers at big companies** below.
 
+If the vertical is real estate, close with `Cheers,` and `Anand` in place of the block (entry 65).
+
+### Real estate emails always end with `Cheers, Anand`
+
+**Entry 65.** When the vertical is real estate, the sign-off is fixed: `Cheers,` on its own line and `Anand` below it, regardless of the register above. It overrides both the `Best,` block for seniors and the bare first-name close for peers. Everything else (sentence case, comma discipline, the ask) is unchanged; only the close flips.
+
+```
+Cheers,
+Anand
+```
+
+`Cheers` over `Best` reads warmer to a property reader, and the transactional vertical does not want the phone and title block a platform-engineering reader expects.
+
 ### The opening line
 
 Senior people respond to their own stated priorities. The strongest source is something they said on the record: an earnings call, an investor day, a conference talk, an interview, an annual letter. Quote or paraphrase it accurately and say why it's why you're writing.
