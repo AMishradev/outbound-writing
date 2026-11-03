@@ -1,6 +1,6 @@
 ---
 name: outbound-writing
-version: 2.3.0
+version: 2.8.0
 description: Write or edit anything a human will read and judge, with a primary focus on startup outbound to technical people — cold emails and DMs to founders, engineers, and CTOs — plus LinkedIn posts, cover letters, job applications, essays, announcements, bios, and messages to real people. Strips the AI tells (em-dash habit, "it's not just X, it's Y", tricolons, "I hope this finds you well", delve/leverage/robust, unearned enthusiasm, the summary paragraph that adds nothing) and forces specifics. Load BEFORE drafting, not after. Also use when asked to make writing sound human, less AI, less corporate, or to de-slop existing text.
 ---
 
@@ -94,6 +94,30 @@ Includes the **compressed form**, which evades the check because it contains no 
 **Emoji bullets and hashtag stacks** in LinkedIn posts. ✅ 🚀 🙏 and `#Grateful #Blessed` read as automated even when a human types them.
 
 ---
+
+## Real-estate outreach: relevance without intrusion (entries 70–77)
+
+**Entry 76 — the bam sentence.** A short standalone declarative (roughly 2–6 words) dropped right after a longer, complete sentence, landing with a thud: `I came to the US in 1999 for a career in technology. North Torrance is home now.` The long sentence was already whole, so the short one is a punch that information did not require, and it produces the long-setup/short-punch metronome the reader hears as written-down. **Ban it as a paragraph or email ending.** Either merge the fact into the longer sentence or promote it to open the next thought. Adjacent short sentences at the very end are the worst case. This is distinct from the generic fragment kicker: the bam sentence is a full sentence with real information, which is why it survives editing.
+
+**Entry 77 — research the whole person, do not manufacture a connection.** Research the sender and recipient properly before writing, using their LinkedIn, employer, city, school and community. Then use only connections that survive checking: same city, a genuinely shared arc, a shared alma mater, a real mutual acquaintance. Do not imply that two people know each other. Do not claim a shared college when the schools differ. When a verified overlap exists, state it once, plainly, and let it sit without comment. Do not append a `no em dashes` violation.
+
+**Entry 75 addendum — banned opener.** `Thought I'd introduce myself.` is an announcement of the move. Cut it, or replace with the actual observation it is standing in for.
+
+**Entry 75 — professional warmth and an evidenced connection.** Keep the user's approved first draft unchanged when asked; revise only the requested alternatives. No em dashes anywhere in these emails. Ban `Thought I'd introduce myself`, `I'm over in...` and sentence fragments such as `Originally from...`. Use complete sentences and professional warmth. Research both sender and recipient for a genuine relevant connection (location, actual shared community or mutual acquaintance). Do not infer a mutual connection or search private property records to manufacture a hook. If the only additional overlap is a professional background, the sender's verified technology background may be stated once in plain language, but do not recite the recipient's job or use technical metaphors. This narrowly qualifies entry 71; no data, pipelines or spreadsheets. Distinguish verified overlap from a proposed conversation topic. Never claim recipient homeownership, purchases, town of origin or community membership without evidence.
+
+**Entry 74 — background detail without a dossier or brand pitch.** The approved direction is a short biography/local introduction, one plain service sentence and the Hinglish close. Treat versions 1–2 from entry 73 as directionally good, not final templates. Avoid `Much of my life here has been around family...` and introducing Crown RE Property Group in the body: the user found that intimate framing and brand emphasis creepy. A verified background detail may be mentioned briefly (for example, attendance at a named college), but do not infer birthplace, identity or life stage from it. Never manufacture an Anand connection to that college. Keep only details that make conversational sense; location-only personalization remains preferable to an irrelevant credential recital. Do not name followed accounts or excavate obscure personal details just to prove research. Vary the opening and flow without adding a business pitch. Preserve the Hinglish invitation and Cheers/Anand close.
+
+**Entry 73 — calm personal voice and the requested Hinglish ending.** For Anand's current campaign, retain `Is hafte thoda waqt milega? Gup-shup kar sakte hain.` and `Cheers,` / `Anand`. The sender explicitly chose this ending; do not replace it with an English meeting CTA. This stylistic choice is not evidence of the recipient's language or ethnicity. Research the matched CSV/LinkedIn person for relevant non-work context. Include at most one naturally relevant verified detail; location is enough when personal interests or community activity cannot be verified. Keep the tone modest and conversational. Do not substitute a property pitch or generic service offer for personal relevance. Three versions should differ naturally without inventing three personal facts.
+
+These rules override pressure elsewhere to add quirky hooks, hyper-specific research, or an obligatory disqualifier.
+
+- Never label a recipient's ethnicity, language, immigration status, age, finances or readiness to buy from a name, college, employer or CSV segment. A college is not a hometown; employment dates are not relocation dates. Do not mention campaign lists or segmentation in copy.
+- No paternalistic life-stage claims: never tell someone they are at the age to buy, need a house, or are following the sender's path. Research does not license familiarity.
+- For Anand's property introductions, leave out the recipient's employer, title, career and technical vocabulary. No data, pipelines, Snowflake or spreadsheet metaphors, even when the underlying job fact is verified. This is a property introduction, not developer outreach.
+- Drop `Over the years` and similar prefacing. State the service plainly. Preserve the sender's light tone, not every sentence from a rejected draft.
+- Use relevant, verified local context sparingly. If no natural personal hook exists, write an honest introduction rather than manufacturing one. Three versions should differ in emphasis (biography, local introduction, practical help), not in invented recipient traits.
+- No forced warmth, exclamation marks, `catch up` with a stranger, or obligatory negative claims. Use a modest invitation without assuming language preference or an existing relationship.
+- Preserve user-supplied place details such as `Allapur, Allahabad`. Do not call them errors without evidence. Do not invent a first-home client specialty or professional credentials.
 
 ## Register
 

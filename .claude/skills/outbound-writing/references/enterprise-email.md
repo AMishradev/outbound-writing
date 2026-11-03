@@ -6,6 +6,14 @@ For email to people at established companies. There are two readers. One is seni
 
 ---
 
+## Real-estate personalization override (entries 70–72)
+
+For Anand's introductions, follow the real-estate rules in `SKILL.md` before the general enterprise advice below. No ethnicity labels or campaign-list references; no age, immigration, relocation or homeownership assumptions. College and surname do not establish origin or language. Employment dates do not establish a move.
+
+Leave the recipient's job and technical vocabulary out of property copy. Do not force data, pipeline or spreadsheet analogies. Drop `Over the years`; describe the service directly. Different drafts may lead with Anand's biography, a local introduction or practical property help. Do not invent personal hooks to differentiate them.
+
+Keep the relationship at stranger-to-stranger distance: no `catch up`, presumed shared story, exclamation marks or mandatory self-disqualifier. A simple introduction is preferable to intrusive personalization. These rules override the hyper-specific peer-research advice below.
+
 ## What carries over unchanged
 
 The anti-slop core is audience-independent. All of it still applies:
@@ -158,11 +166,11 @@ Related tells that ride along with this one, and the same instinct behind them:
 
 Fix only:
 
-- **Facts** — a wrong city, a wrong year. (In one real draft, `Allapur` for `Allahabad`, which the sender would not have caught because it was his own memory.)
+- **Facts** — correct only demonstrable errors. Preserve `Allapur, Allahabad` as supplied by the sender; the earlier claim that this was a typo was unsupported.
 - **Spelling and grammar** in his own phrasing, corrected in place rather than replaced.
 - **The mechanical tells** — a three-item list that should be two, a comma-appositive, a manufactured transition.
 
-Do not restore a fact the sender dropped because it reads better to you. He cut `loan officer` and `bridging fellow North Indians` on purpose. Offer them back as a named option, with the cost of each, and let him decide. The AI draft's job on a sender-written email is **subtraction, not rewriting**.
+Do not mistake the assistant's deletions for the sender's choices. The sender supplied `loan officer` and community involvement; the assistant cut them. Preserve the intended meaning while improving awkward phrasing. Follow explicit feedback rather than freezing every sentence of an earlier draft.
 
 When a sender says they like the lightness and directness of their own version, that is a register instruction. Match it. The heavy, knowing, fully-reasoned version is the failure mode here.
 

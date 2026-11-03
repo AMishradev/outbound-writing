@@ -23,6 +23,84 @@ Bump the minor version when a batch of suggestions gets folded in. Bump major on
 
 ---
 
+## v2.8.0 — Unreleased
+
+### 76. Name and ban the bam sentence
+**Flagged:** "I hate sentences where it's an introduction and then a bam sentence like `North Torrance is home now`. It's a long sentence followed by a bam sentence. Give this a name, it's a violation to end like that."
+**Rule:** Name the pattern **the bam sentence**: a short standalone declarative (2–6 words) dropped after a longer complete sentence, landing with a thud. Ban it as a paragraph or email ending. Merge it into the longer sentence or promote it to open the next thought. Distinct from the fragment kicker: the bam sentence carries real information, which is why it survives editing.
+**Before:** `I came to the US in 1999 for a career in technology. North Torrance is home now.`
+**After:** merge to `I came to the US in 1999 for a career in technology and have been in the LA area since.`
+**Lands in:** `SKILL.md`
+
+### 77. Research the whole person, do not manufacture a connection
+**Flagged:** "FILTER COLLEGE ALUMNI FIND CONNECTIONS THAT WAY MAYBE THEY KNOW EACH OTHER. PLEASE SCOUR THE INTERNET FOR ANY AND ALL INFORMATION ABOUT ANAND."
+**Rule:** Research sender and recipient fully (LinkedIn, employer, city, school, community) before writing. Use only connections that survive checking: same city, genuine shared arc, shared alma mater, real mutual acquaintance. Never imply two people know each other. Never claim a shared college across different schools. State a verified overlap once and let it sit.
+**Before:** a vague `in tech too` with no evidence; a claimed college connection.
+**After:** one verified overlap stated plainly.
+**Lands in:** `SKILL.md`
+**Note:** research found Anand is a 25-year technology executive (Director at ICANN, Torrance) and a broker/MLO; Krishna is a data engineer at Agilisium, LA, MITS Madanapalle. No shared alma mater. The verified overlap is LA plus the India-to-US technology arc.
+
+---
+
+## v2.7.0 — Unreleased
+
+### 75. Professional warmth, no em dashes, verified overlap
+**Flagged:** Third version was unprofessional and violated the no-em-dash rule; `Thought I'd introduce myself` was unwanted framing. Keep version 1 and research genuine sender-recipient overlap for two alternatives.
+**Rule:** Preserve the approved draft. Remove em dashes, announcement-of-introduction lines and conversational fragments. Research genuine connections without inventing shared communities or personal property history. Permit one plain sender-side technology-background statement when relevant, without recipient job narration or technical metaphors.
+**Before:** `Noticed you're in Los Angeles — I'm over in Torrance...` / `Thought I'd introduce myself.`
+**After:** Complete sentences, a verified connection and the requested Hinglish close.
+**Lands in:** `SKILL.md`
+
+---
+
+## v2.6.0 — Unreleased
+
+### 74. Background detail without intrusive intimacy or brand emphasis
+**Flagged:** Versions 1–2 were about 60% there; version 3 felt creepy, especially the Crown RE Property Group mention. Desired: "reference stuff in his background but don't make it weird."
+**Rule:** Keep the short local introduction, plain service description and Hinglish ending. No family-life framing or company-brand pitch. Mention at most one verified background detail naturally, without an inferred identity or invented shared connection. Do not force a school reference when location is more relevant.
+**Before:** `Much of my life here has been around family...` followed by Crown RE Property Group.
+**After:** A restrained personal introduction with no brand emphasis, job hook or presumed familiarity.
+**Lands in:** `SKILL.md`
+
+---
+
+## v2.5.0 — Unreleased
+
+### 73. Keep the Hinglish ending and modest personal relevance
+**Flagged:** "keep the indian ending" / "be nice and humble and calm" / "a bit personal to Krishna ... edge off about work"
+**Rule:** Retain the sender's requested Hinglish invitation and Cheers/Anand close. Research non-work context without inferring identity. Use a verified local detail when richer personal context is unavailable; do not fill gaps with a sales pitch.
+**Before:** An English meeting CTA or a neighborhood-comparison offer replacing the requested ending.
+**After:** One natural verified personal detail followed by `Is hafte thoda waqt milega? Gup-shup kar sakte hain.`
+**Lands in:** `SKILL.md`
+
+---
+
+## v2.4.0 — Unreleased
+
+### 70. Research is not permission to label or patronize
+**Flagged:** The Telugu/list hook was intrusive and obnoxious; the age-to-buy hook sounded condescending.
+**Rule:** No recipient ethnicity, language, immigration, age or buying-readiness inference from names, schools, employers or campaign segments. Never expose list segmentation or prescribe a life stage.
+**Before:** `You're Telugu, so half my list doesn't apply to you anyway.` / `You're at the age where a first home starts making sense.`
+**After:** An honest introduction grounded in the sender's facts and relevant verified geography.
+**Lands in:** `SKILL.md`, `enterprise-email.md`
+
+### 71. Property outreach is not developer outreach
+**Flagged:** "strip out ... data ... pipelines" / "stop with spreadsheet"
+**Rule:** For Anand's property introductions, omit recipient job/career references and technical metaphors even if verified. Differentiate drafts by purpose, not gimmicks.
+**Before:** `The Snowflake guy who needs a house`
+**After:** Biography-led, local-introduction and practical-help variants with no presumed housing need.
+**Lands in:** `SKILL.md`, `enterprise-email.md`
+
+### 72. Keep the voice, not rejected scaffolding
+**Flagged:** "why do we have to keep over the years"
+**Rule:** Remove unnecessary time-prefaces. Preserve intent and lightness while revising structure. Do not force warmth, a negative admission or familiar language with a stranger. Supersedes literal-copy interpretations of entry 67.
+**Before:** `Over the years I've been actively involved...`
+**After:** State community involvement or the service directly.
+**Correction:** Earlier assistant claims about Krishna's ethnicity, age, relocation date and homeownership were not established. Allapur was not a demonstrated typo. The assistant, not the sender, dropped the loan-officer wording. These mistakes must not become skill rules.
+**Lands in:** `SKILL.md`, `enterprise-email.md`
+
+---
+
 ## v2.3.0 — 2026-11-03 (branch: real-estate)
 
 Entries 68–69, both from the same draft. One line read as creepy and one exclamation mark read as forced, and the two share a cause: the sender asserting a feeling about the relationship instead of showing one.
