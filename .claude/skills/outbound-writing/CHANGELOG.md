@@ -23,6 +23,18 @@ Bump the minor version when a batch of suggestions gets folded in. Bump major on
 
 ---
 
+## v2.9.0 — Unreleased
+
+### 78. Source-check pasted research before drafting
+**Flagged:** User requested three drafts from the compiled research, a skill update and a GitHub push.
+**Rule:** Repetition does not validate earlier assistant errors. Prioritize primary evidence; do not promote school location into origin, employment dates into relocation, surname matches into relatives or a name-matching account into a verified identity. Keep salesperson/broker credentials accurate. Use restrained verified background details without claiming a shared relationship.
+**Before:** `likely relative`, a claimed Krishna hometown or relocation date, or calling Anand a broker despite the DRE salesperson classification.
+**After:** Sender biography plus verified LA location or MITS attendance; documented sender alumni service without claiming Krishna shares that network.
+**Lands in:** `SKILL.md`
+**Correction to entry 77 research note:** Anand's official DRE classification is salesperson; NMLS ID is listed but current MLO authorization requires separate checking. Krishna's move to the US and home town have not been established. The two identified schools differ, but absence of all possible shared affiliations or mutual contacts has not been established.
+
+---
+
 ## v2.8.0 — Unreleased
 
 ### 76. Name and ban the bam sentence

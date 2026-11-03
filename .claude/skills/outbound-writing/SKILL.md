@@ -1,6 +1,6 @@
 ---
 name: outbound-writing
-version: 2.8.0
+version: 2.9.0
 description: Write or edit anything a human will read and judge, with a primary focus on startup outbound to technical people — cold emails and DMs to founders, engineers, and CTOs — plus LinkedIn posts, cover letters, job applications, essays, announcements, bios, and messages to real people. Strips the AI tells (em-dash habit, "it's not just X, it's Y", tricolons, "I hope this finds you well", delve/leverage/robust, unearned enthusiasm, the summary paragraph that adds nothing) and forces specifics. Load BEFORE drafting, not after. Also use when asked to make writing sound human, less AI, less corporate, or to de-slop existing text.
 ---
 
@@ -95,7 +95,9 @@ Includes the **compressed form**, which evades the check because it contains no 
 
 ---
 
-## Real-estate outreach: relevance without intrusion (entries 70–77)
+## Real-estate outreach: relevance without intrusion (entries 70–78)
+
+**Entry 78 — source-check a pasted research brief.** A pasted brief can contain earlier assistant errors or altered details. Use primary evidence over repetition. For this campaign, Anand's DRE identifies him as a salesperson, not a broker; do not inflate the credential. Krishna attended MITS, which does not establish birthplace, ethnicity, language, age or relocation date. Same-surname people are not possible relatives absent independent evidence. A Medium account with a matching name remains a candidate until linked to the matched person. A public search cannot rule out mutual LinkedIn connections. Anand's alumni involvement is documented; Krishna's membership in a local alumni group is not. Distinguish an actual shared school or acquaintance from a possible introduction route. For copy, use sender biography and one verified recipient detail, not speculative family ties, contact details, counts or private housing circumstances. Three drafts may explore a school reference, local context or the sender's alumni involvement without claiming a relationship.
 
 **Entry 76 — the bam sentence.** A short standalone declarative (roughly 2–6 words) dropped right after a longer, complete sentence, landing with a thud: `I came to the US in 1999 for a career in technology. North Torrance is home now.` The long sentence was already whole, so the short one is a punch that information did not require, and it produces the long-setup/short-punch metronome the reader hears as written-down. **Ban it as a paragraph or email ending.** Either merge the fact into the longer sentence or promote it to open the next thought. Adjacent short sentences at the very end are the worst case. This is distinct from the generic fragment kicker: the bam sentence is a full sentence with real information, which is why it survives editing.
 
