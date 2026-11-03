@@ -99,6 +99,40 @@ Anand
 
 `Cheers` over `Best` reads warmer to a property reader, and the transactional vertical does not want the phone and title block a platform-engineering reader expects.
 
+**Entry 69 addendum.** A fuller block is still available if the sender wants it, and the one thing that must not be in it is the phone-plus-title wall in a first cold email. If a block is used, keep it to name and role only:
+
+```
+Best,
+Anand Mishra
+Real Estate Broker | Loan Officer
+Torrance, California
+```
+
+### Never assert warmth
+
+**Entry 68.** A line that states the sender's attitude toward the relationship reads as creepy: `I always enjoy connecting with others in the community.` It is unfalsifiable and points at nobody. The reader cannot check it, so it feels like a claim about vibes.
+
+The test: **does the line name a thing that happened, or only a feeling about things in general?** Feelings in general are creepy. Facts are not.
+
+Delete it, or convert it into an activity:
+
+- ❌ `I always enjoy connecting with others in the community.`
+- ✅ *(cut — the `actively involved in the North Indian community` sentence already said it)*
+- ✅ `Most of my week is other Indian families in Torrance.`
+
+This is the same family as `unearned enthusiasm` in `SKILL.md`, but it survives that check because it names no adjective and no event, so nothing greps. Watch for it in the sentence just before the ask, which is where it likes to sit.
+
+### The Hinglish ask takes no exclamation mark
+
+**Entry 69.** In mixed English-Hindi outbound, the ask line is dry. `Is hafte thoda time milega? Gup-shup kar sakte hain.` The question mark on the first line carries the invitation; the second line is a statement and ends on a period.
+
+An exclamation mark there reads as enthusiastic at a stranger. `Gup-shup` is a relaxed noun phrase, not an excited one, so the bang contradicts the word.
+
+- ❌ `Is hafte thoda time milega? Gup-shup kar sakte hain!`
+- ✅ `Is hafte thoda time milega? Gup-shup kar sakte hain.`
+
+This is the one-slash-per-piece exclamation cap in `audit.md` pass 1, with a location rule attached. On a Hinglish line it is zero.
+
 ### The opening line
 
 Senior people respond to their own stated priorities. The strongest source is something they said on the record: an earnings call, an investor day, a conference talk, an interview, an annual letter. Quote or paraphrase it accurately and say why it's why you're writing.

@@ -19,6 +19,28 @@ Bump the minor version when a batch of suggestions gets folded in. Bump major on
 
 **Versioning.** Semver, kept in three places that must agree: the `version:` field in `SKILL.md`, a git tag (`v1.1.0`), and a GitHub Release. Major = new audience or scope change. Minor = a batch of folded-in corrections. Patch = wording fixes with no new rule. A playbook marked unverified ships as a prerelease (`-beta.N`) until its rules have survived real drafts.
 
+*(v2.3.0 supersedes v2.2.0 where the two conflict.)*
+
+---
+
+## v2.3.0 — 2026-11-03 (branch: real-estate)
+
+Entries 68–69, both from the same draft. One line read as creepy and one exclamation mark read as forced, and the two share a cause: the sender asserting a feeling about the relationship instead of showing one.
+
+### 68. Never assert warmth, show the activity
+**Flagged:** "i don't like this line it sounds crrepy: I always enjoy connecting with others in the community"
+**Rule:** A sentence that asserts the sender's attitude toward the relationship (`I always enjoy connecting with others in the community`) reads as creepy because it is unfalsifiable and covers no specific person. Say what the activity *is* instead. `Always enjoy` becomes a fact about what the sender does, or gets deleted entirely. The test: does the line name a thing that happened, or only a feeling about things in general? Feelings in general are creepy. Facts are not.
+**Before:** `I always enjoy connecting with others in the community.`
+**After:** cut it; the `actively involved in the North Indian community` sentence above already carried the content.
+**Lands in:** `enterprise-email.md`
+
+### 69. One exclamation mark, and not on the Hinglish line
+**Flagged:** "this is corny we don't know you and the exclamation marks are weird and too forced"
+**Rule:** The existing cap is one exclamation mark per piece (`audit.md` pass 1). Entry 69 adds where it must not go. In mixed English-Hindi outbound, the Hinglish ask line takes **no** exclamation mark. `Is hafte thoda time milega? Gup-shup kar sakte hain!` — the bang makes a stranger's question sound enthusiastic at itself, when the register is dry and casual. The question mark on line one is doing all the work; the second line is a statement and ends on a period. Applies to the `Gup-shup` / `gup sup` construction specifically, which is a relaxed noun phrase and not an excited one.
+**Before:** `Is hafte thoda time milega? Gup-shup kar sakte hain!`
+**After:** `Is hafte thoda time milega? Gup-shup kar sakte hain.`
+**Lands in:** `enterprise-email.md`
+
 ---
 
 ## v2.2.0 — 2026-11-03 (branch: real-estate)
