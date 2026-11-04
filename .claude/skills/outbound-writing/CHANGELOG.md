@@ -21,6 +21,46 @@ Bump the minor version when a batch of suggestions gets folded in. Bump major on
 
 ---
 
+## Unreleased — real-estate feedback
+
+### 70. Natural rhythm and a conversation-specific close
+**Flagged:** Option 1 strongest; option 2 sentences too short. Use "my firm" or "my practice" and mention 27 years in LA. `Thodo samay malshe?` feels like another generic meeting request. Approved line: "Work takes you places, but those connections stay."
+**Rule:** Connect biographical sentences naturally, avoid repeated company branding, and close with a thematic invitation in romanized Gujarati rather than a bare request for time. Supersedes entry 69's literal time-request example.
+**Before:** `Thodo samay malshe?`
+**After:** `LA ma ghar ni vaat thi sharu kariye ke Japan thi?` (Shall we start with homes in LA or Japan?)
+**Lands in:** `references/enterprise-email.md`
+
+
+### 66. Introduce Anand before the personal hook
+**Flagged:** "the first line shouldn't be the hook"; include "Anand Mishra" and "Allapur, Allahabad".
+**Rule:** Anand's real-estate drafts open with his full name and upbringing, before recipient personalization. Vertical-specific exception to the general opener ban.
+**Before:** `Your Japan diary took me beyond the CVS headline.`
+**After:** `My name is Anand Mishra. I grew up in Allapur, Allahabad.`
+**Lands in:** `references/enterprise-email.md`
+
+### 67. Plain language for the family-home story
+**Flagged:** "eventually made North Torrance home phrasing its weird".
+**Rule:** State what happened plainly; avoid sentimental relocation formulas.
+**Before:** `eventually made North Torrance home`
+**After:** `We bought a house in North Torrance.`
+**Lands in:** `references/enterprise-email.md`
+
+### 68. Personal interests do not need technical-career framing
+**Flagged:** "mentioning data is cooked"; likes the detail about telling the trip through his own photographs.
+**Rule:** Preserve concrete creative details; use work/career rather than inserting a technical title into personal praise.
+**Before:** `You've kept room for writing alongside a career in data.`
+**After:** `Your site has essays and Gujarati poems alongside your work.`
+**Lands in:** `references/enterprise-email.md`
+
+### 69. Ask for time in the appropriate language
+**Flagged:** "ending line should be asking for some time" in Gujarati for Karan; "would be good to meet over coffee is cooked".
+**Rule:** For these real-estate drafts, replace generic coffee invitations with a short polite time request. Use a language supported by the person's own public writing and the user's direction, never surname alone.
+**Before:** `Would be good to meet over coffee.`
+**After:** `થોડો સમય આપશો?`
+**Lands in:** `references/enterprise-email.md`
+
+---
+
 ## v2.1.0 — 2026-11-03 (branch: real-estate)
 
 Adds a vertical-specific sign-off: real estate emails always end `Cheers, Anand` (entry 65).

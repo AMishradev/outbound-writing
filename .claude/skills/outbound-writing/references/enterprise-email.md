@@ -97,6 +97,19 @@ Anand
 
 `Cheers` over `Best` reads warmer to a property reader, and the transactional vertical does not want the phone and title block a platform-engineering reader expects.
 
+### Real estate: sender introduction before recipient personalization
+
+**Entries 66–70 (user feedback).** For Anand's real-estate outreach, open with his full name and his own roots: `My name is Anand Mishra. I grew up in Allapur, Allahabad.` This overrides the general ban on name introductions for this vertical. Place the recipient-specific detail after the introduction.
+
+- Use plain biographical language: `We bought a house in North Torrance`, not `eventually made North Torrance home`.
+- Build the connection through Anand's documented family experience and interests. Do not assume the recipient has children or a particular household.
+- When discussing personal writing, say `alongside work` or `outside work`; avoid forcing their technical job into the compliment (`alongside a career in data`). Keep concrete details such as a travel story told through the recipient's own photographs.
+- End with a conversation-specific invitation, not a generic coffee invitation or a bare request for time. Where the recipient's own writing establishes a language connection, a short closing in that language can work. For Karan the user requests conversational Gujarati written in Latin characters, not Gujarati script. Do not infer language from a surname alone or imply Anand speaks Gujarati fluently.
+- Prefer `my firm` or `my practice` over repeating Crown RE Property Group in the body. Mention Anand's 27 years in LA when useful (user-approved for these drafts; update the duration as time passes).
+- Avoid a sequence of clipped biographical sentences; connect related thoughts naturally.
+- The user subsequently rejected `Thodo samay malshe?` as a generic meeting ask. A romanized Gujarati close should invite an actual conversation tied to the email's theme, not merely ask for time or translate a 15-minute request. The user liked `Work takes you places, but those connections stay.` Preserve this as an approved line, not a mandatory template.
+- Keep the fixed `Cheers,` / `Anand` sign-off.
+
 ### The opening line
 
 Senior people respond to their own stated priorities. The strongest source is something they said on the record: an earnings call, an investor day, a conference talk, an interview, an annual letter. Quote or paraphrase it accurately and say why it's why you're writing.
