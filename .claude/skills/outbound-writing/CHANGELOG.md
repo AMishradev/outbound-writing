@@ -21,7 +21,17 @@ Bump the minor version when a batch of suggestions gets folded in. Bump major on
 
 ---
 
-## Unreleased — real-estate feedback
+## v2.4.0-real-estate-a.1 — 2026-11-05 (branch: real-estate-a)
+
+Branch-specific prerelease: folds in entries 66–71. Uses a new minor above the existing local v2.2.0/v2.3.0 tags without moving them. Adds sender-first real-estate introductions, natural biographical rhythm, romanized conversational closes, and a hard check against manufactured personalization. New hook rules remain unverified on sent drafts.
+
+### 71. Research facts do not automatically make a connection
+**Flagged:** "this pattern of Saw you did X. I spent a lot of time doing Y. blah blah is just wrong"; the Heart Walk → hiking/alumni paragraph sounds AI-generated.
+**Rule:** Reject recipient-fact → sender-fact stitching unless the connection is genuine and supported. Changing phrasing does not fix the structure. Do not invent intentions or questions to rescue a hook.
+**Before:** `Read your post about the Heart Walk and learning CPR. My time outside work goes into hiking around California and keeping my BIT Sindri classmates connected.`
+**After:** Keep Anand's introduction coherent; omit the Heart Walk hook unless he has something genuine to say about it. Do not add an unconfirmed claim that he has been meaning to learn CPR.
+**Lands in:** `SKILL.md`, `references/enterprise-email.md`, `references/audit.md`
+
 
 ### 70. Natural rhythm and a conversation-specific close
 **Flagged:** Option 1 strongest; option 2 sentences too short. Use "my firm" or "my practice" and mention 27 years in LA. `Thodo samay malshe?` feels like another generic meeting request. Approved line: "Work takes you places, but those connections stay."

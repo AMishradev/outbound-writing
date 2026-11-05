@@ -65,6 +65,10 @@ Common offenders:
 
 Check every number. Round numbers ("over 5 years", "100s of customers", "40% improvement") are frequently invented or inflated. If you did not receive it from the user, it does not go in. Placeholder as `[X]` and flag it.
 
+### Personalization bridge check
+
+Underline any `you did X → I do Y` transition. Is there a real connection, or merely two facts in the same broad category? Reject the latter even if the prose sounds smooth. A hook also fails if it requires an invented sender intention, feeling, routine, or question. Remove the hook rather than manufacture the bridge.
+
 ## Pass 4 — Rhythm
 
 Read it aloud, or scan sentence lengths as a sequence of numbers.

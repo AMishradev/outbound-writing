@@ -110,6 +110,12 @@ Anand
 - The user subsequently rejected `Thodo samay malshe?` as a generic meeting ask. A romanized Gujarati close should invite an actual conversation tied to the email's theme, not merely ask for time or translate a 15-minute request. The user liked `Work takes you places, but those connections stay.` Preserve this as an approved line, not a mandatory template.
 - Keep the fixed `Cheers,` / `Anand` sign-off.
 
+### No stitched-together personal hooks
+
+**Entry 71.** Reject the pattern `Saw you did X. I spend my time doing Y.` A Heart Walk and Anand's hiking or alumni reunions do not become a connection just because they are all activities outside work. Do not fix this by swapping `saw` for `read`, smoothing the sentences, or inventing a question about CPR.
+
+Introduce Anand coherently first. A recipient observation can stand on its own if Anand has something genuine to say about it. If not, omit the detail rather than forcing every researched fact into the email. Do not invent sender intentions (such as wanting to learn CPR), routines, feelings, or shared interests. Ask Anand to confirm any proposed personal claim before using it.
+
 ### The opening line
 
 Senior people respond to their own stated priorities. The strongest source is something they said on the record: an earnings call, an investor day, a conference talk, an interview, an annual letter. Quote or paraphrase it accurately and say why it's why you're writing.

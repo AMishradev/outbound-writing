@@ -1,6 +1,6 @@
 ---
 name: outbound-writing
-version: 2.1.0
+version: 2.4.0-real-estate-a.1
 description: Write or edit anything a human will read and judge, with a primary focus on startup outbound to technical people — cold emails and DMs to founders, engineers, and CTOs — plus LinkedIn posts, cover letters, job applications, essays, announcements, bios, and messages to real people. Strips the AI tells (em-dash habit, "it's not just X, it's Y", tricolons, "I hope this finds you well", delve/leverage/robust, unearned enthusiasm, the summary paragraph that adds nothing) and forces specifics. Load BEFORE drafting, not after. Also use when asked to make writing sound human, less AI, less corporate, or to de-slop existing text.
 ---
 
@@ -48,6 +48,10 @@ Never invent a specific. If a number is unknown, write around it or leave a `[X]
 - **Concrete nouns over abstractions.** "the reconciliation job" beats "our systems." "Tuesday" beats "in a timely manner."
 - **Say one thing that isn't flattering.** A limitation, a gap, a thing that didn't work, a disagreement. This single move does more for credibility than any other edit in this file. It is also the thing default prose will not do unprompted.
 - **Let the reader do some work.** Not every implication needs to be stated. Cutting the "here's why that matters" sentence usually improves the paragraph.
+
+### Personalization must earn its place
+
+Do not stitch research to sender biography with `Saw you did X. I spend my time doing Y.` Shared categories (outdoors, community, technology) do not establish a personal connection. Changing the verbs or sentence lengths does not fix the pattern. Use a recipient detail only when the sender has something genuine and supported to say about it; otherwise omit it. Never invent an intention, feeling, question, or shared interest to rescue a hook. Sender biography and recipient observations can stand separately without a manufactured bridge.
 
 ### 3. Audit
 
